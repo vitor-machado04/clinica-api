@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7aWO8K3b5AoqSUDcNpKmuhw9EdtZXmJRa+R34gOH0iRkN67XmBZfaqssJJqruZa9QJhCL1hIgs+qrcB8FYRllg==",
+  "dgSpecHash": "eNsDmxHK46hwfMD2biV856yVFxOYz3bn99Xc8IL5RZAvIF2Ytc8e2pMmNSfZILDIefSI06ueZgvc+m/il1VfYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vitor Machado\\Documents\\ApiClinica\\ClinicaAPI\\ClinicaAPI.csproj",
+  "projectFilePath": "C:\\Users\\Vitor Machado\\Documents\\clinica-api\\ClinicaAPI\\ClinicaAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vitor Machado\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Vitor Machado\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
