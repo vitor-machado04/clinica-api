@@ -13,10 +13,14 @@ import { ModalModule } from 'ngx-bootstrap/modal'
 import { MedicosService } from './medicos.service'; 
 import { MedicosComponent } from './components/medicos/medicos.component';
 
+import { PacientesService } from './pacientes.service';
+import { PacientesComponent } from './components/pacientes/pacientes.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    MedicosComponent
+    MedicosComponent,
+    PacientesComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +30,7 @@ import { MedicosComponent } from './components/medicos/medicos.component';
     ReactiveFormsModule,
     ModalModule.forRoot()
   ],
-  providers: [HttpClientModule, MedicosService],
+  providers: [HttpClientModule, MedicosService, PacientesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
