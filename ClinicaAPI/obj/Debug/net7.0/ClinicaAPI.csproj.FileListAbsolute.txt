@@ -1,0 +1,704 @@
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\appsettings.Development.json
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\appsettings.json
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.exe
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.deps.json
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.runtimeconfig.json
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.pdb
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\Humanizer.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.batteries_v2.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.core.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\System.CodeDom.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.AssemblyReference.cache
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.AssemblyInfoInputs.cache
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.AssemblyInfo.cs
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.ClinicaAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.ClinicaAPI.props
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ClinicaAPI.props
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ClinicaAPI.props
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\staticwebassets.pack.json
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\staticwebassets.build.json
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\staticwebassets.development.json
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\scopedcss\bundle\ClinicaAPI.styles.css
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.CopyComplete
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\refint\ClinicaAPI.dll
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.pdb
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.genruntimeconfig.cache
+D:\ProjetosC#\ClinicaAPI\ClinicaAPI\obj\Debug\net7.0\ref\ClinicaAPI.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\appsettings.json
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.exe
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.deps.json
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.runtimeconfig.json
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.pdb
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.core.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.AssemblyInfoInputs.cache
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.AssemblyInfo.cs
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.ClinicaAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.ClinicaAPI.props
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ClinicaAPI.props
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ClinicaAPI.props
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\scopedcss\bundle\ClinicaAPI.styles.css
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.CopyComplete
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\refint\ClinicaAPI.dll
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.pdb
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.genruntimeconfig.cache
+C:\Users\Aluno\Desktop\VITOR\ClinicaAPI\obj\Debug\net7.0\ref\ClinicaAPI.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.AssemblyReference.cache
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.AssemblyInfoInputs.cache
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.AssemblyInfo.cs
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\refint\ClinicaAPI.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.pdb
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\appsettings.json
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.exe
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.deps.json
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.runtimeconfig.json
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.pdb
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.core.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.ClinicaAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.ClinicaAPI.props
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ClinicaAPI.props
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ClinicaAPI.props
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\scopedcss\bundle\ClinicaAPI.styles.css
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.CopyComplete
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.genruntimeconfig.cache
+C:\Users\Vinicius\Desktop\Estudos\API CLINICA\ClinicaAPI\obj\Debug\net7.0\ref\ClinicaAPI.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\appsettings.Development.json
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\appsettings.json
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.exe
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.deps.json
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.runtimeconfig.json
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.pdb
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Humanizer.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\dotnet-ef.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.batteries_v2.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.core.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\System.CodeDom.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.AssemblyReference.cache
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.AssemblyInfoInputs.cache
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.AssemblyInfo.cs
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.CoreCompileInputs.cache
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.ClinicaAPI.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.ClinicaAPI.props
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ClinicaAPI.props
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ClinicaAPI.props
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\staticwebassets.pack.json
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\staticwebassets.build.json
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\staticwebassets.development.json
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\scopedcss\bundle\ClinicaAPI.styles.css
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.CopyComplete
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\refint\ClinicaAPI.dll
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.pdb
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.genruntimeconfig.cache
+c:\Users\macha\OneDrive\Documentos\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ref\ClinicaAPI.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\appsettings.json
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.exe
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.deps.json
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.runtimeconfig.json
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.pdb
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\dotnet-ef.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.core.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.AssemblyReference.cache
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.AssemblyInfoInputs.cache
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.AssemblyInfo.cs
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.ClinicaAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.ClinicaAPI.props
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ClinicaAPI.props
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ClinicaAPI.props
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\scopedcss\bundle\ClinicaAPI.styles.css
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.CopyComplete
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\refint\ClinicaAPI.dll
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.pdb
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.genruntimeconfig.cache
+C:\Users\Vinicius\Desktop\Estudos\api-clinica\ClinicaAPI\obj\Debug\net7.0\ref\ClinicaAPI.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\appsettings.json
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.exe
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.deps.json
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.runtimeconfig.json
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.pdb
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\dotnet-ef.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.core.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.AssemblyReference.cache
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.AssemblyInfoInputs.cache
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.AssemblyInfo.cs
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.ClinicaAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.ClinicaAPI.props
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ClinicaAPI.props
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ClinicaAPI.props
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\scopedcss\bundle\ClinicaAPI.styles.css
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.CopyComplete
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\refint\ClinicaAPI.dll
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.pdb
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.genruntimeconfig.cache
+C:\Users\Vitor Machado\Documents\ClinicaApi\clinica-api\ClinicaAPI\obj\Debug\net7.0\ref\ClinicaAPI.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\appsettings.json
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.exe
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.deps.json
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.runtimeconfig.json
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.pdb
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\Humanizer.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\dotnet-ef.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.core.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.AssemblyReference.cache
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.AssemblyInfoInputs.cache
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.AssemblyInfo.cs
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.CoreCompileInputs.cache
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.ClinicaAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.ClinicaAPI.props
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ClinicaAPI.props
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ClinicaAPI.props
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\scopedcss\bundle\ClinicaAPI.styles.css
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.CopyComplete
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\refint\ClinicaAPI.dll
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.pdb
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.genruntimeconfig.cache
+C:\Users\macha\OneDrive\Documentos\ClinicaApiV3\fix\ClinicaAPI\obj\Debug\net7.0\ref\ClinicaAPI.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\appsettings.json
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.exe
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.deps.json
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.runtimeconfig.json
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.pdb
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\dotnet-ef.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.core.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.AssemblyReference.cache
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.AssemblyInfoInputs.cache
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.AssemblyInfo.cs
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.ClinicaAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.ClinicaAPI.props
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ClinicaAPI.props
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ClinicaAPI.props
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\scopedcss\bundle\ClinicaAPI.styles.css
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.CopyComplete
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\refint\ClinicaAPI.dll
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.pdb
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.genruntimeconfig.cache
+C:\Users\Vinicius\Desktop\ClinicaAPI-final\ClinicaAPI\obj\Debug\net7.0\ref\ClinicaAPI.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\appsettings.json
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.exe
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.deps.json
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.runtimeconfig.json
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.pdb
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\dotnet-ef.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.core.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.AssemblyReference.cache
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.AssemblyInfoInputs.cache
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.AssemblyInfo.cs
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.ClinicaAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.ClinicaAPI.props
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ClinicaAPI.props
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ClinicaAPI.props
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\scopedcss\bundle\ClinicaAPI.styles.css
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.CopyComplete
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\refint\ClinicaAPI.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.pdb
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.genruntimeconfig.cache
+C:\Users\Vitor Machado\Documents\ApiClinica\api-clinica\ClinicaAPI\obj\Debug\net7.0\ref\ClinicaAPI.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\appsettings.json
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.exe
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.deps.json
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.runtimeconfig.json
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\ClinicaAPI.pdb
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\dotnet-ef.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.core.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.AssemblyReference.cache
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.AssemblyInfoInputs.cache
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.AssemblyInfo.cs
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.ClinicaAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.ClinicaAPI.props
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ClinicaAPI.props
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ClinicaAPI.props
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\scopedcss\bundle\ClinicaAPI.styles.css
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.csproj.CopyComplete
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\refint\ClinicaAPI.dll
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.pdb
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\ClinicaAPI.genruntimeconfig.cache
+C:\Users\Vitor Machado\Documents\ApiClinica\ClinicaAPI\obj\Debug\net7.0\ref\ClinicaAPI.dll
