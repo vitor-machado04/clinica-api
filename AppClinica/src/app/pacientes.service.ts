@@ -12,7 +12,7 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class PacientesService {
-  apiUrl = 'http://localhost:5000';
+  apiUrl = 'http://localhost:5000/api/Paciente';
   constructor(private http: HttpClient) { }
   listar(): Observable<Paciente[]> {
     const url = `${this.apiUrl}/listar`;

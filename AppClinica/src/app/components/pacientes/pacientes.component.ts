@@ -18,7 +18,7 @@ export class PacientesComponent implements OnInit {
     this.tituloFormulario = 'Novo Paciente';
     this.formulario = new FormGroup({
       Id: new FormControl(null),
-      Name: new FormControl(null),
+      Nome: new FormControl(null),
       Cpf: new FormControl(null)
     })
   }
@@ -27,5 +27,5 @@ export class PacientesComponent implements OnInit {
     this.pacientesService.cadastrar(paciente).subscribe(result => {
       alert('Paciente inserido com sucesso.');
     })
-  } 
+}
 }

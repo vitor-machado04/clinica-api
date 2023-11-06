@@ -28,7 +28,7 @@ namespace ClinicaAPI.Controllers
 
         // Cadastrando um paciente
         [HttpPost]
-        [Route("/cadastrar")]
+        [Route("cadastrar")]
         public async Task<ActionResult<Paciente>> Cadastrar(Paciente paciente)
         {
             if (_context.Paciente is null) return NotFound();
