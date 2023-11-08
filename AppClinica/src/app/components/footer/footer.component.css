@@ -1,0 +1,15 @@
+#footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+  }
+  
+  #footer-item {
+    font-size: 0.62rem;
+    margin-bottom: 3.5px;
+    color: #ccc;
+  }
+  
+

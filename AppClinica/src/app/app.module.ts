@@ -16,11 +16,19 @@ import { MedicosComponent } from './components/medicos/medicos.component';
 import { PacientesService } from './pacientes.service';
 import { PacientesComponent } from './components/pacientes/pacientes.component';
 
+import { ExamesService } from './exames.service';
+import { ExamesComponent } from './components/exames/exames.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     MedicosComponent,
-    PacientesComponent
+    PacientesComponent,
+    ExamesComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +38,7 @@ import { PacientesComponent } from './components/pacientes/pacientes.component';
     ReactiveFormsModule,
     ModalModule.forRoot()
   ],
-  providers: [HttpClientModule, MedicosService, PacientesService],
+  providers: [HttpClientModule, MedicosService, PacientesService, ExamesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
