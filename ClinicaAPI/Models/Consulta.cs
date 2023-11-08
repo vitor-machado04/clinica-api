@@ -9,15 +9,14 @@ namespace ClinicaAPI.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        [Required]
         public Paciente? Paciente { get; set; }
-        public int PacienteId { get; set; }
         [Required]
+        public int PacienteId { get; set; }
         public Medico? Medico { get; set; }
+        [Required]
         public int MedicoId { get; set; }
         [Required]
         public string? Razao { get; set; }
-        [Required]
         public DateTime? DataHora { get; set; }
     }
 

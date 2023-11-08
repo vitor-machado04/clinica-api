@@ -14,10 +14,9 @@ namespace ClinicaAPI.Models
     public DateTime? Data { get; set; }
     [Required]
     public string? Resultado { get; set; }
-    [Required]
     public Paciente? Paciente { get; set; }
+    [Required]
     public int PacienteId { get; set; }
-
     }
 
 }

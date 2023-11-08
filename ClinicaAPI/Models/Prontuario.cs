@@ -8,8 +8,8 @@ public class Prontuario
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
-    [Required]
     public Paciente? Paciente { get; set; }
+    [Required]
     public int? PacienteId { get; set; }
     [Required]
     public DateTime? DataCriacao { get; set; }
@@ -17,7 +17,6 @@ public class Prontuario
     public string? Diagnostico { get; set; }
     [Required]
     public string? Tratamento { get; set; }
-
 }
 
 }

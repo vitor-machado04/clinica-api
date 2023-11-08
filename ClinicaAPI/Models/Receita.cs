@@ -16,8 +16,8 @@ namespace ClinicaAPI.Models
         public string? InstrucoesUso { get; set; }
         [Required]
         public DateTime? DataEmissao { get; set; }
-        [Required]
         public Medico? Medico { get; set; }
+        [Required]
         public int IdMedico { get; set; }
     }
 

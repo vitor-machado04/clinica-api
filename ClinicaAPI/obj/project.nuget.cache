@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "t3qhD1iOAkedh/P3RSNmhKzqffC1lzMUxZ5AIW5KYklHe2l7XhoP65/+uzypEwN46cy/rE0762cpaMftuV/I3A==",
-  "success": false,
+  "dgSpecHash": "KGEX5B15253Eex/HqXmIgUnLf1kHdWUR5n228rJ4mtkqrLXvTpyT99yyD3IZ4Co9M1j9N2FDNBeObNvUEf3jOA==",
+  "success": true,
   "projectFilePath": "C:\\Users\\Vinicius\\Desktop\\API 07-11\\clinica-api\\ClinicaAPI\\ClinicaAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vinicius\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
-    "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.13\\microsoft.data.sqlite.core.7.0.13.nupkg.sha512",
+    "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.11\\microsoft.data.sqlite.core.7.0.11.nupkg.sha512",
     "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
     "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.11\\microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",
     "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.11\\microsoft.entityframeworkcore.analyzers.7.0.11.nupkg.sha512",
-    "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.13\\microsoft.entityframeworkcore.design.7.0.13.nupkg.sha512",
-    "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.13\\microsoft.entityframeworkcore.relational.7.0.13.nupkg.sha512",
-    "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\7.0.13\\microsoft.entityframeworkcore.sqlite.7.0.13.nupkg.sha512",
-    "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\7.0.13\\microsoft.entityframeworkcore.sqlite.core.7.0.13.nupkg.sha512",
+    "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.11\\microsoft.entityframeworkcore.design.7.0.11.nupkg.sha512",
+    "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.11\\microsoft.entityframeworkcore.relational.7.0.11.nupkg.sha512",
+    "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\7.0.11\\microsoft.entityframeworkcore.sqlite.7.0.11.nupkg.sha512",
+    "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\7.0.11\\microsoft.entityframeworkcore.sqlite.core.7.0.11.nupkg.sha512",
     "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.11\\microsoft.entityframeworkcore.tools.7.0.11.nupkg.sha512",
     "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.entityframeworkcore.tools.dotnet\\2.0.3\\microsoft.entityframeworkcore.tools.dotnet.2.0.3.nupkg.sha512",
     "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
@@ -92,24 +92,5 @@
     "C:\\Users\\Vinicius\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Vinicius\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore from 7.0.13 to 7.0.11. Reference the package directly from the project to select a different version. \r\n ClinicaAPI -> Microsoft.EntityFrameworkCore.Design 7.0.13 -> Microsoft.EntityFrameworkCore.Relational 7.0.13 -> Microsoft.EntityFrameworkCore (>= 7.0.13) \r\n ClinicaAPI -> Microsoft.EntityFrameworkCore (>= 7.0.11)",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore from 7.0.13 to 7.0.11. Reference the package directly from the project to select a different version. \r\n ClinicaAPI -> Microsoft.EntityFrameworkCore.Sqlite 7.0.13 -> Microsoft.EntityFrameworkCore.Sqlite.Core 7.0.13 -> Microsoft.EntityFrameworkCore.Relational 7.0.13 -> Microsoft.EntityFrameworkCore (>= 7.0.13) \r\n ClinicaAPI -> Microsoft.EntityFrameworkCore (>= 7.0.11)",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }
