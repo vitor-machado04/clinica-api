@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ModalModule } from 'ngx-bootstrap/modal'
 
-import { MedicosService } from './medicos.service'; 
+import { MedicosService } from './medicos.service';
 import { MedicosComponent } from './components/medicos/medicos.component';
 
 import { PacientesService } from './pacientes.service';
@@ -20,6 +20,8 @@ import { ExamesService } from './exames.service';
 import { ExamesComponent } from './components/exames/exames.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ConsultasComponent } from './components/consultas/consultas.component';
+import { ConsultasService } from './consultas.service';
 
 @NgModule({
   declarations: [
@@ -27,8 +29,10 @@ import { FooterComponent } from './components/footer/footer.component';
     MedicosComponent,
     PacientesComponent,
     ExamesComponent,
+    ConsultasComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    ConsultasComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +42,7 @@ import { FooterComponent } from './components/footer/footer.component';
     ReactiveFormsModule,
     ModalModule.forRoot()
   ],
-  providers: [HttpClientModule, MedicosService, PacientesService, ExamesService],
+  providers: [HttpClientModule, MedicosService, PacientesService, ExamesService, ConsultasService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

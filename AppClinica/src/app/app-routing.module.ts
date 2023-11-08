@@ -5,6 +5,7 @@ import { PacientesComponent } from './components/pacientes/pacientes.component';
 import { ExamesComponent } from './components/exames/exames.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ConsultasComponent } from './components/consultas/consultas.component';
 
 const routes: Routes = [
   {
@@ -13,7 +14,11 @@ const routes: Routes = [
   },
   {
     path: 'pacientes',
-    component: PacientesComponent 
+    component: PacientesComponent
+  },
+  {
+    path: 'consultas',
+    component: ConsultasComponent
   },
   {
     path: 'exames',
