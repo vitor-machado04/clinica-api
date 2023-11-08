@@ -1,0 +1,37 @@
+<nav class="NavbarItems">
+    <a routerLink="/">
+      <h1 class="logo">MediSoft</h1>
+    </a>
+
+    <div class="mobile-menu-icons" (click)="handleClick()">
+      <i [class]="clicked ? 'fas fa-times' : 'fas fa-bars'"></i>
+    </div>
+
+    <ul [class]="clicked ? 'nav-menu active' : 'nav-menu'">
+      <li>
+        <a routerLink="/medicos" class="nav-menu-links">
+          <i class="fa-solid fa-address-card"></i>Medico
+        </a>
+      </li>
+      <li>
+        <a routerLink="/pacientes" class="nav-menu-links">
+          <i class="fa-solid fa-folder"></i>Paciente
+        </a>
+      </li>
+      <li>
+        <a routerLink="/consultas" class="nav-menu-links">
+          <i class="fa-solid fa-briefcase"></i>Consulta
+        </a>
+      </li>
+      <li>
+        <a routerLink="/exames" class="nav-menu-links">
+          <i class="fa-solid fa-address-book"></i>Exame
+        </a>
+      </li>
+      <li>
+        <a routerLink="/contact" class="nav-menu-links">
+          <i class="fa-solid fa-address-book"></i>Prontuario
+        </a>
+      </li>
+    </ul>
+  </nav>

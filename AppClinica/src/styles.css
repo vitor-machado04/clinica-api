@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kodchasan', sans-serif;
+  
+  }
+  
+  body{
+    min-height: 100vh;
+      background-image:linear-gradient(rgba(17, 17, 17, 0.486), rgba(20, 20, 20, 0.507)), url('./assets/capaClinica.png');
+      background-size: cover;
+  }
+  

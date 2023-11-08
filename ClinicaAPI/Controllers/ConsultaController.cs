@@ -95,7 +95,7 @@ namespace ClinicaAPI.Controllers
             await _context.SaveChangesAsync();
             return Ok("Data da consulta alterada com sucesso.");
         }
-
+        
         // Excluindo uma consulta
         [HttpDelete]
         [Route("excluir/{id}")]

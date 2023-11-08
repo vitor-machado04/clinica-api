@@ -24,7 +24,6 @@ namespace ClinicaAPI.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTime?>("DataHora")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<int>("MedicoId")
@@ -166,7 +165,7 @@ namespace ClinicaAPI.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("MedicoId")
+                    b.Property<int?>("MedicoId")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
@@ -221,9 +220,7 @@ namespace ClinicaAPI.Migrations
                 {
                     b.HasOne("ClinicaAPI.Models.Medico", "Medico")
                         .WithMany()
-                        .HasForeignKey("MedicoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("MedicoId");
 
                     b.Navigation("Medico");
                 });
