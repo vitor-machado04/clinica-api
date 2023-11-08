@@ -13,7 +13,7 @@
                 </div>
                 <div class="form-group">
                     <label>Data</label>
-                    <input type="date" class="form-control form-control-sm" formControlName="Data" />
+                    <input type="datetime-local" class="form-control form-control-sm" formControlName="Data" />
                 </div>
                 <div class="form-group">
                     <label>Resultado</label>
@@ -23,10 +23,18 @@
                     <label>PacienteId</label>
                     <input type="text" class="form-control form-control-sm" formControlName="PacienteId" />
                 </div>
-                <button type="submit" class="btn btn-sm btn-outline-secondary">
-                    Salvar
-                </button>
-                <button type="button" class="btn btn-sm btn-light ml-1">Voltar</button>
+                <div class="container">
+                    <div class="row">
+                        <div>
+                            <button type="submit" class="btn btn-sm btn-outline-secondary">
+                                Salvar
+                            </button>
+                        </div>
+                        <div class="pl-1">
+                            <button type="button" class="btn btn-sm btn-light">Voltar</button>
+                        </div>
+                    </div>
+                </div>
             </form>
         </div>
     </div>

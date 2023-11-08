@@ -1,38 +1,33 @@
+import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { ExamesService } from 'src/app/exames.service';
 import { Exame } from 'src/app/Exame';
-import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-exames',
   templateUrl: './exames.component.html',
   styleUrls: ['./exames.component.css']
 })
-export class ExamesComponent implements OnInit {
-  formulario: FormGroup;
-  tituloFormulario: string = 'Novo Exame';
+export class ExamesComponent {
+  formulario: any;
+  tituloFormulario: string = '';
 
-  constructor(private examesService: ExamesService) {
+  constructor(private examesService : ExamesService) { }
+
+  ngOnInit(): void {
+    this.tituloFormulario = 'Nova Exame';
     this.formulario = new FormGroup({
       Id: new FormControl(null),
       Nome: new FormControl(null),
       Data: new FormControl(null),
       Resultado: new FormControl(null),
       PacienteId: new FormControl(null)
-    });
+    })
   }
-
-  async enviarFormulario() {
-    const exame: Exame = this.formulario.value;
-    try {
-      await this.examesService.cadastrar(exame).toPromise();
+  enviarFormulario(): void {
+    const exame : Exame = this.formulario.value;
+    this.examesService.cadastrar(exame).subscribe(result => {
       alert('Exame inserido com sucesso.');
-    } catch (error) {
-      console.log(error);
-    }
-  }
-
-  ngOnInit(): void {
-    // O restante do seu código de inicialização, se houver
+    })
   }
 }
