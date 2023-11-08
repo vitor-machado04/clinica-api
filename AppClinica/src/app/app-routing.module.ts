@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MainLayoutComponent } from './components/main-layout/main-layout.component';
 import { HomeComponent } from './components/home/home.component';
+import { ConsultasComponent } from './components/consultas/consultas.component';
 
 const routes: Routes = [
   {
@@ -19,8 +20,9 @@ const routes: Routes = [
       { path: 'exames', component: ExamesComponent},
       { path: 'navbar', component: NavbarComponent},
       { path: 'footer', component: FooterComponent},
+      { path: 'consultas', component: ConsultasComponent},
     ],
-  },
+  }
 ];
 
 @NgModule({

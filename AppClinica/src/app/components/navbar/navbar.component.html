@@ -2,11 +2,11 @@
     <a routerLink="/">
       <h1 class="logo">MediSoft</h1>
     </a>
-  
+
     <div class="mobile-menu-icons" (click)="handleClick()">
       <i [class]="clicked ? 'fas fa-times' : 'fas fa-bars'"></i>
     </div>
-  
+
     <ul [class]="clicked ? 'nav-menu active' : 'nav-menu'">
       <li>
         <a routerLink="/medicos" class="nav-menu-links">
@@ -19,7 +19,7 @@
         </a>
       </li>
       <li>
-        <a routerLink="/works" class="nav-menu-links">
+        <a routerLink="/consultas" class="nav-menu-links">
           <i class="fa-solid fa-briefcase"></i>Consulta
         </a>
       </li>
@@ -35,4 +35,3 @@
       </li>
     </ul>
   </nav>
-  

@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ModalModule } from 'ngx-bootstrap/modal'
 
-import { MedicosService } from './medicos.service'; 
+import { MedicosService } from './medicos.service';
 import { MedicosComponent } from './components/medicos/medicos.component';
 
 import { PacientesService } from './pacientes.service';
@@ -22,6 +22,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MainLayoutComponent } from './components/main-layout/main-layout.component';
 import { HomeComponent } from './components/home/home.component';
+import { ConsultasComponent } from './components/consultas/consultas.component';
+import { ConsultasService } from './consultas.service';
 
 @NgModule({
   declarations: [
@@ -29,10 +31,12 @@ import { HomeComponent } from './components/home/home.component';
     MedicosComponent,
     PacientesComponent,
     ExamesComponent,
+    ConsultasComponent,
     NavbarComponent,
     FooterComponent,
     MainLayoutComponent,
-    HomeComponent
+    HomeComponent,
+    ConsultasComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +47,7 @@ import { HomeComponent } from './components/home/home.component';
     ReactiveFormsModule,
     ModalModule.forRoot()
   ],
-  providers: [HttpClientModule, MedicosService, PacientesService, ExamesService],
+  providers: [HttpClientModule, MedicosService, PacientesService, ExamesService, ConsultasService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
