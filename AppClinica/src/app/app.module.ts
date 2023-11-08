@@ -7,7 +7,7 @@ import{ HttpClientModule } from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ModalModule } from 'ngx-bootstrap/modal'
 
 import { MedicosService } from './medicos.service'; 
@@ -20,6 +20,8 @@ import { ExamesService } from './exames.service';
 import { ExamesComponent } from './components/exames/exames.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { MainLayoutComponent } from './components/main-layout/main-layout.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -28,13 +30,16 @@ import { FooterComponent } from './components/footer/footer.component';
     PacientesComponent,
     ExamesComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    MainLayoutComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CommonModule,
     HttpClientModule,
+    FormsModule,
     ReactiveFormsModule,
     ModalModule.forRoot()
   ],

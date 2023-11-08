@@ -1,0 +1,23 @@
+#contrast{
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #003F62;
+    padding: 5px;
+    color: #ffffff;
+    border-radius: 18px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+#contrast:hover{
+    background-color: #000000;
+}
+
+@media screen and (max-width: 850px){
+   
+    #content-left-about-us p{
+        width: 80%;
+    }
+    
+}
+

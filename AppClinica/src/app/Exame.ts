@@ -5,6 +5,6 @@ export class Exame {
     Nome: string = '';
     Data: Date | null = null;
     Resultado: string = '';
-    Paciente: Paciente | null = null;
+    Paciente: Paciente | undefined;
     PacienteId: number = 0;
-}
+  }
