@@ -31,3 +31,15 @@
         </div>
     </div>
 </div>
+<div class="row">
+  <div class="col-6 border border-light rounded p-5 shadow bg-white" *ngIf="formulario">
+    <h2>Excluir Médico</h2>
+    <form [formGroup]="formularioExclusao">
+      <div class="form-group">
+        <label for="IdExclusao">ID do Médico:</label>
+        <input type="number" id="IdExclusao" formControlName="Id" />
+      </div>
+      <button (click)="excluirMedico()">Excluir</button>
+    </form>
+</div>
+</div>
