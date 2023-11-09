@@ -12,6 +12,7 @@ export class MedicosComponent implements OnInit {
   formulario: any;
   tituloFormulario: string = '';
   formularioExclusao: any;
+  formularioSelecionado: string = 'cadastro';
 
   constructor(private medicosService : MedicosService) { }
 
@@ -48,4 +49,7 @@ export class MedicosComponent implements OnInit {
       alert('Por favor, insira o ID do médico que deseja excluir.');
     }
   }
+  selecionarFormulario(tipo: string) {
+    this.formularioSelecionado = tipo;
+}
 }
