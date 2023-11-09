@@ -4,15 +4,17 @@
     align-items: center;
     font: 1.2rem;
     padding: 0 30px;
-    background-color: transparent; /* Tornando a Navbar transparente */
+    background-color: transparent; 
     border-radius: 13px;
+    position: fixed; 
+    top: 0; 
     position: relative;
     top: 20px;
     left: 50%;
     transform: translate(-50%);
     margin-bottom: 25px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.60);
-    backdrop-filter: blur(100px);
+    backdrop-filter: blur(0px);
     width: 95%;
     height: 80px;
     transition: background-color 0.3s ease; /* Adicionando uma transição suave para a cor de fundo */

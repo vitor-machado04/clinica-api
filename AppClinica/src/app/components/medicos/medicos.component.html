@@ -1,9 +1,10 @@
-<div class="container p-5">
-    <div class="row">
-        <div class="col-6 border border-light rounded p-5 shadow bg-white">
-            <div class="btn-group">
+<div class="container-fluid">
+    <div class="row justify-content-center align-items-center vh-100">
+        <div class="col-6 border border-light rounded p-5 shadow-lg bg-white">
+            <div class="btn-group mb-5">
                 <button type="button" class="btn btn-light" (click)="selecionarFormulario('cadastro')">Cadastro</button>
                 <button type="button" class="btn btn-light" (click)="selecionarFormulario('exclusao')">Exclusão</button>
+                <button type="button" class="btn btn-light" (click)="selecionarFormulario('alterar')">Alterar</button>
             </div>
 
             <div *ngIf="formularioSelecionado === 'cadastro'">
@@ -22,7 +23,7 @@
                         <label>Crm</label>
                         <input type="text" class="form-control form-control-sm" formControlName="Crm" />
                     </div>
-                    <div class="container">
+                    <div class="container mt-3">
                         <div class="row">
                             <div>
                                 <button type="submit" class="btn btn-sm btn-outline-secondary">
@@ -46,6 +47,35 @@
                         <input type="number" id="IdExclusao" formControlName="Id" />
                     </div>
                     <button (click)="excluirMedico()">Excluir</button>
+                </form>
+            </div>
+            <div *ngIf="formularioSelecionado === 'alterar'">
+                <h6>Alterar Médico</h6>
+                <form [formGroup]="formularioAlterar" (ngSubmit)="alterarMedico()">
+                    <div class="form-group">
+                        <label for="MedicoAlteracao">ID do Médico:</label>
+                        <input type="number" id="MedicoAlteracao" formControlName="Id" />
+                    </div>
+                    <div class="form-group">
+                        <label>Nome</label>
+                        <input type="text" class="form-control form-control-sm" formControlName="Name" />
+                    </div>
+                    <div class="form-group">
+                        <label>Crm</label>
+                        <input type="text" class="form-control form-control-sm" formControlName="Crm" />
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div>
+                                <button type="submit" class="btn btn-sm btn-outline-secondary">
+                                    Salvar
+                                </button>
+                            </div>
+                            <div class="pl-1">
+                                <button type="button" class="btn btn-sm btn-light" (click)="selecionarFormulario('cadastro')">Voltar</button>
+                            </div>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>

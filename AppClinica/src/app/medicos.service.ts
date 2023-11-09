@@ -12,6 +12,9 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class MedicosService {
+  obterMedicoPorId(idAlteracao: number) {
+    throw new Error('Method not implemented.');
+  }
   apiUrl = 'http://localhost:5000/api/Medico';
   constructor(private http: HttpClient) { }
   listar(): Observable<Medico[]> {
