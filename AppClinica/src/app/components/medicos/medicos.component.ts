@@ -12,7 +12,6 @@ export class MedicosComponent implements OnInit {
   formulario: any;
   tituloFormulario: string = '';
   formularioExclusao: any;
-  formularioAlterar: any;
   formularioSelecionado: string = 'cadastro';
 
   constructor(private medicosService : MedicosService) { }
@@ -30,16 +29,8 @@ export class MedicosComponent implements OnInit {
     this.formularioExclusao = new FormGroup({
     Id: new FormControl(null),
   });
-
-    // Formulário de alterar 
-    this.tituloFormulario = 'Alterar'
-    this.formularioAlterar = new FormGroup({
-      Id: new FormControl(null),
-      Name: new FormControl(null),
-      Crm: new FormControl(null)
-    })
-
   }
+
   enviarFormulario(): void {
     const medico : Medico = this.formulario.value;
     this.medicosService.cadastrar(medico).subscribe(result => {
@@ -59,19 +50,7 @@ export class MedicosComponent implements OnInit {
     }
   }
 
-  alterarMedico(): void {
-    const medicoAlteracao: Medico = this.formularioAlterar.get('Id')?.value;
-
-    if (medicoAlteracao) {
-      this.medicosService.atualizar(medicoAlteracao).subscribe(result => {
-        alert('Médico excluído com sucesso.');
-      });
-    } else {
-      alert('Por favor, insira o ID do médico que deseja excluir.');
-    }
-  }
-
   selecionarFormulario(tipo: string) {
     this.formularioSelecionado = tipo;
-}
+  }
 }
