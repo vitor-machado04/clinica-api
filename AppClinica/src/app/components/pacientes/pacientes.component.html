@@ -1,33 +1,55 @@
-<div class="container p-5">
-    <div class="row">
-        <div class="col-6 border border-light rounded p-5 shadow blue-background bg-white" *ngIf="formulario">
-            <h6>{{ tituloFormulario }}</h6>
-            <form [formGroup]="formulario" (ngSubmit)="enviarFormulario()">
-                <div class="form-group">
-                    <label>Id</label>
-                    <input type="text" class="form-control form-control-sm" formControlName="Id" />
-                </div>
-                <div class="form-group">
-                    <label>Nome</label>
-                    <input type="text" class="form-control form-control-sm" formControlName="Nome" />
-                </div>
-                <div class="form-group">
-                    <label>Cpf</label>
-                    <input type="text" class="form-control form-control-sm" formControlName="Cpf" />
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div>
-                            <button type="submit" class="btn btn-sm btn-outline-secondary">
-                                Salvar
-                            </button>
-                        </div>
-                        <div class="pl-1">
-                            <button type="button" class="btn btn-sm btn-light">Voltar</button>
+<div class="container-fluid">
+    <div class="row justify-content-center align-items-center vh-100">
+        <div class="col-6 border border-light rounded p-5 shadow-lg bg-white">
+            <div class="btn-group mb-5">
+                <button type="button" class="btn btn-light" (click)="selecionarFormulario('cadastro')">Cadastro</button>
+                <button type="button" class="btn btn-light" (click)="selecionarFormulario('exclusao')">Exclusão</button>
+                <button type="button" class="btn btn-light" (click)="selecionarFormulario('alterar')">Alterar</button>
+                <button type="button" class="btn btn-light" (click)="selecionarFormulario('listar')">Listar</button>
+            </div>
+
+            <div *ngIf="formularioSelecionado === 'cadastro'">
+                <h6>{{ tituloFormulario }}</h6>
+                <form [formGroup]="formulario" (ngSubmit)="enviarFormulario()">
+
+                    <div class="form-group">
+                        <label>Id</label>
+                        <input type="text" class="form-control form-control-sm" formControlName="Id" />
+                    </div>
+                    <div class="form-group">
+                        <label>Nome</label>
+                        <input type="text" class="form-control form-control-sm" formControlName="Nome" />
+                    </div>
+                    <div class="form-group">
+                        <label>Cpf</label>
+                        <input type="text" class="form-control form-control-sm" formControlName="Cpf" />
+                    </div>
+                    <div class="container mt-3">
+                        <div class="row">
+                            <div>
+                                <button type="submit" class="btn btn-sm btn-outline-secondary">
+                                    Salvar
+                                </button>
+                            </div>
+                            <div class="pl-1">
+                                <button type="button" class="btn btn-sm btn-light">Voltar</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </form>
+                </form>
+            </div>
+
+            <div *ngIf="formularioSelecionado === 'exclusao'">
+                <h6>Excluir Paciente</h6>
+                <form [formGroup]="formularioExclusao">
+
+                    <div class="form-group">
+                        <label for="IdExclusao">ID do Paciente:</label>
+                        <input type="number" id="IdExclusao" formControlName="Id" />
+                    </div>
+                    <button (click)="excluirPaciente()">Excluir</button>
+                </form>
+            </div>
         </div>
     </div>
 </div>
