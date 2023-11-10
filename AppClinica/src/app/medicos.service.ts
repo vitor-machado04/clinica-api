@@ -12,6 +12,9 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class MedicosService {
+  obterMedicoPorId(idAlteracao: number) {
+    throw new Error('Method not implemented.');
+  }
   apiUrl = 'http://localhost:5000/api/Medico';
   constructor(private http: HttpClient) { }
   listar(): Observable<Medico[]> {
@@ -31,7 +34,7 @@ export class MedicosService {
     return this.http.put<Medico>(url, medico, httpOptions);
   }
   excluir(Id: number): Observable<any> {
-    const url = `${this.apiUrl}/buscar/${Id}`;
+    const url = `${this.apiUrl}/excluir/${Id}`;
     return this.http.delete<number>(url, httpOptions);
   }
 }
