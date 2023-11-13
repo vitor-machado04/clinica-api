@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
-import { MedicosService } from 'src/app/medicos.service';
-import { Medico } from 'src/app/Medico';
+import { MedicosService } from 'src/app/Services/medicos.service';
+import { Medico } from 'src/app/Classes/Medico';
 
 @Component({
   selector: 'app-medicos',

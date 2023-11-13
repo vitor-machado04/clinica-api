@@ -6042,11 +6042,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vitor Machado\\Music\\clinica-api\\clinica-api\\ClinicaAPI\\ClinicaAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Vitor Machado\\Desktop\\clinica-api\\clinica-api\\ClinicaAPI\\ClinicaAPI.csproj",
       "projectName": "ClinicaAPI",
-      "projectPath": "C:\\Users\\Vitor Machado\\Music\\clinica-api\\clinica-api\\ClinicaAPI\\ClinicaAPI.csproj",
+      "projectPath": "C:\\Users\\Vitor Machado\\Desktop\\clinica-api\\clinica-api\\ClinicaAPI\\ClinicaAPI.csproj",
       "packagesPath": "C:\\Users\\Vitor Machado\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vitor Machado\\Music\\clinica-api\\clinica-api\\ClinicaAPI\\obj\\",
+      "outputPath": "C:\\Users\\Vitor Machado\\Desktop\\clinica-api\\clinica-api\\ClinicaAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vitor Machado\\AppData\\Roaming\\NuGet\\NuGet.Config",

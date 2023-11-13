@@ -1,6 +1,6 @@
 import { FormControl, FormGroup } from '@angular/forms';
-import { ExamesService } from 'src/app/exames.service';
-import { Exame } from 'src/app/Exame';
+import { ExamesService } from 'src/app/Services/exames.service';
+import { Exame } from 'src/app/Classes/Exame';
 import { Component, OnInit } from '@angular/core';
 
 @Component({

@@ -1,6 +1,6 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Consulta } from './Consulta';
+import { Consulta } from '../Classes/Consulta';
 import { Observable } from 'rxjs';
 
 const httpOptions = {

@@ -1,41 +1,63 @@
-<div class="container p-5">
-  <div class="row">
-      <div class="col-6 border border-light rounded p-5 shadow bg-white" *ngIf="formulario">
-          <h6>{{ tituloFormulario }}</h6>
-          <form [formGroup]="formulario" (ngSubmit)="enviarFormulario()">
-              <div class="form-group">
-                  <label>Id</label>
-                  <input type="text" class="form-control form-control-sm" formControlName="Id" />
-              </div>
-              <div class="form-group">
-                  <label>PacienteId</label>
-                  <input type="text" class="form-control form-control-sm" formControlName="PacienteId" />
-              </div>
-              <div class="form-group">
-                  <label>MedicoId</label>
-                  <input type="text" class="form-control form-control-sm" formControlName="MedicoId" />
-              </div>
-              <div class="form-group">
-                <label>Razao</label>
-                <input type="text" class="form-control form-control-sm" formControlName="Razao" />
-              </div>
-              <div class="form-group">
-                <label>Data</label>
-                <input type="datetime-local" class="form-control form-control-sm" formControlName="DataHora" />
-              </div>
-              <div class="container">
-                  <div class="row">
-                      <div>
-                          <button type="submit" class="btn btn-sm btn-outline-secondary">
-                              Salvar
-                          </button>
-                      </div>
-                      <div class="pl-1">
-                          <button type="button" class="btn btn-sm btn-light">Voltar</button>
-                      </div>
-                  </div>
-              </div>
-          </form>
-      </div>
-  </div>
+<div class="container-fluid">
+    <div class="row justify-content-center align-items-center vh-100">
+        <div class="col-6 border border-light rounded p-5 shadow-lg bg-white">
+            <div class="btn-group mb-5">
+                <button type="button" class="btn btn-light" (click)="selecionarFormulario('cadastro')">Cadastro</button>
+                <button type="button" class="btn btn-light" (click)="selecionarFormulario('exclusao')">Exclusão</button>
+                <button type="button" class="btn btn-light" (click)="selecionarFormulario('alterar')">Alterar</button>
+                <button type="button" class="btn btn-light" (click)="selecionarFormulario('listar')">Listar</button>
+            </div>
+
+            <div *ngIf="formularioSelecionado === 'cadastro'">
+                <h6>{{ tituloFormulario }}</h6>
+                <form [formGroup]="formulario" (ngSubmit)="enviarFormulario()">
+
+                    <div class="form-group">
+                        <label>Id</label>
+                        <input type="text" class="form-control form-control-sm" formControlName="Id" />
+                    </div>
+                    <div class="form-group">
+                        <label>PacienteId</label>
+                        <input type="text" class="form-control form-control-sm" formControlName="PacienteId" />
+                    </div>
+                    <div class="form-group">
+                        <label>MedicoId</label>
+                        <input type="text" class="form-control form-control-sm" formControlName="MedicoId" />
+                    </div>
+                    <div class="form-group">
+                        <label>Razão</label>
+                        <input type="text" class="form-control form-control-sm" formControlName="Razao" />
+                    </div>
+                    <div class="form-group">
+                        <label>DataHora</label>
+                        <input type="datetime-local" class="form-control form-control-sm" formControlName="DataHora" />
+                    </div>
+                    <div class="container mt-3">
+                        <div class="row">
+                            <div>
+                                <button type="submit" class="btn btn-sm btn-outline-secondary">
+                                    Salvar
+                                </button>
+                            </div>
+                            <div class="pl-1">
+                                <button type="button" class="btn btn-sm btn-light">Voltar</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div *ngIf="formularioSelecionado === 'exclusao'">
+                <h6>Excluir Médico</h6>
+                <form [formGroup]="formularioExclusao">
+
+                    <div class="form-group">
+                        <label for="IdExclusao">ID da Consulta:</label>
+                        <input type="number" id="IdExclusao" formControlName="Id" />
+                    </div>
+                    <button (click)="excluirConsulta()">Excluir</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>

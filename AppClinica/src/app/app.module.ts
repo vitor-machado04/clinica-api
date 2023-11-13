@@ -10,20 +10,20 @@ import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ModalModule } from 'ngx-bootstrap/modal'
 
-import { MedicosService } from './medicos.service';
+import { MedicosService } from './Services/medicos.service';
 import { MedicosComponent } from './components/medicos/medicos.component';
 
-import { PacientesService } from './pacientes.service';
+import { PacientesService } from './Services/pacientes.service';
 import { PacientesComponent } from './components/pacientes/pacientes.component';
 
-import { ExamesService } from './exames.service';
+import { ExamesService } from './Services/exames.service';
 import { ExamesComponent } from './components/exames/exames.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MainLayoutComponent } from './components/main-layout/main-layout.component';
 import { HomeComponent } from './components/home/home.component';
 import { ConsultasComponent } from './components/consultas/consultas.component';
-import { ConsultasService } from './consultas.service';
+import { ConsultasService } from './Services/consultas.service';
 
 @NgModule({
   declarations: [
