@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { MainLayoutComponent } from './components/main-layout/main-layout.component';
 import { HomeComponent } from './components/home/home.component';
 import { ConsultasComponent } from './components/consultas/consultas.component';
+import { ProntuariosComponent } from './components/prontuarios/prontuarios.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,7 @@ const routes: Routes = [
       { path: 'navbar', component: NavbarComponent},
       { path: 'footer', component: FooterComponent},
       { path: 'consultas', component: ConsultasComponent},
+      { path: 'prontuarios', component: ProntuariosComponent},
     ],
   }
 ];

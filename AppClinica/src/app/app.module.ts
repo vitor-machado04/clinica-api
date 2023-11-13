@@ -24,6 +24,7 @@ import { MainLayoutComponent } from './components/main-layout/main-layout.compon
 import { HomeComponent } from './components/home/home.component';
 import { ConsultasComponent } from './components/consultas/consultas.component';
 import { ConsultasService } from './Services/consultas.service';
+import { ProntuariosComponent } from './components/prontuarios/prontuarios.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ConsultasService } from './Services/consultas.service';
     FooterComponent,
     MainLayoutComponent,
     HomeComponent,
-    ConsultasComponent
+    ConsultasComponent,
+    ProntuariosComponent
   ],
   imports: [
     BrowserModule,
