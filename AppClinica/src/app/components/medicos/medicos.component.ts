@@ -29,7 +29,7 @@ export class MedicosComponent implements OnInit {
     this.formularioExclusao = new FormGroup({
     Id: new FormControl(null),
   });
-  }
+}
 
   enviarFormulario(): void {
     const medico : Medico = this.formulario.value;

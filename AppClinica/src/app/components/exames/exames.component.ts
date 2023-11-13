@@ -1,7 +1,7 @@
+import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { ExamesService } from 'src/app/Services/exames.service';
 import { Exame } from 'src/app/Classes/Exame';
-import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-exames',
@@ -9,10 +9,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./exames.component.css']
 })
 export class ExamesComponent implements OnInit {
-  formulario: FormGroup;
-  tituloFormulario: string = 'Novo Exame';
+  formulario: any;
+  tituloFormulario: string = '';
+  formularioExclusao: any;
+  formularioSelecionado: string = 'cadastro';
 
-  constructor(private examesService: ExamesService) {
+  constructor(private examesService : ExamesService) { }
+
+  ngOnInit(): void {
+    this.tituloFormulario = 'Novo Exame';
     this.formulario = new FormGroup({
       Id: new FormControl(null),
       Nome: new FormControl(null),
@@ -20,19 +25,34 @@ export class ExamesComponent implements OnInit {
       Resultado: new FormControl(null),
       PacienteId: new FormControl(null)
     });
+
+    // Formulário de exclusão
+    this.tituloFormulario = 'Deletando um Exame'
+    this.formularioExclusao = new FormGroup({
+    Id: new FormControl(null),
+  });
+}
+
+  enviarFormulario(): void {
+    const exame : Exame = this.formulario.value;
+    this.examesService.cadastrar(exame).subscribe(result => {
+      alert('Exame inserido com sucesso.');
+    })
   }
 
-  async enviarFormulario() {
-    const exame: Exame = this.formulario.value;
-    try {
-      await this.examesService.cadastrar(exame).toPromise();
-      alert('Exame inserido com sucesso.');
-    } catch (error) {
-      console.log(error);
+  excluirExame(): void {
+    const idExclusao: number = this.formularioExclusao.get('Id')?.value;
+
+    if (idExclusao) {
+      this.examesService.excluir(idExclusao).subscribe(result => {
+        alert('Exame excluído com sucesso.');
+      });
+    } else {
+      alert('Por favor, insira o ID do exame que deseja excluir.');
     }
   }
 
-  ngOnInit(): void {
-    // O restante do seu código de inicialização, se houver
+  selecionarFormulario(tipo: string) {
+    this.formularioSelecionado = tipo;
   }
 }

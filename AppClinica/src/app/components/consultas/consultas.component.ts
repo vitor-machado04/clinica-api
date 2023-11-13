@@ -44,10 +44,10 @@ export class ConsultasComponent {
 
     if (idExclusao) {
       this.consultasService.excluir(idExclusao).subscribe(result => {
-        alert('Consulta excluída com sucesso.')
+        alert('Consulta excluída com sucesso.');
       });
     } else {
-      alert('Por favor, insira o ID da consulta que deseja excluir.')
+      alert('Por favor, insira o ID da consulta que deseja excluir.');
     }
   }
 
