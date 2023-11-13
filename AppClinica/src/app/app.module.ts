@@ -25,6 +25,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ConsultasComponent } from './components/consultas/consultas.component';
 import { ConsultasService } from './Services/consultas.service';
 import { ProntuariosComponent } from './components/prontuarios/prontuarios.component';
+import { ReceitasComponent } from './components/receitas/receitas.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ProntuariosComponent } from './components/prontuarios/prontuarios.compo
     MainLayoutComponent,
     HomeComponent,
     ConsultasComponent,
-    ProntuariosComponent
+    ProntuariosComponent,
+    ReceitasComponent
   ],
   imports: [
     BrowserModule,
