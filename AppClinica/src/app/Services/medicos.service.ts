@@ -20,6 +20,7 @@ export class MedicosService {
   listar(): Observable<Medico[]> {
     const url = `${this.apiUrl}/listar`;
     return this.http.get<Medico[]>(url);
+    
   }
   buscar(Id: number): Observable<Medico> {
     const url = `${this.apiUrl}/buscar/${Id}`;

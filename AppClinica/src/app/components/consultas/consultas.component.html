@@ -20,9 +20,17 @@
                         <label>PacienteId</label>
                         <input type="text" class="form-control form-control-sm" formControlName="PacienteId" />
                     </div>
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label>MedicoId</label>
                         <input type="text" class="form-control form-control-sm" formControlName="MedicoId" />
+                    </div> -->
+                    <div class="form-group">
+                        <label>Medico</label>
+                        <select class="form-control form-control-sm" formControlName="MedicoId">
+                            <option *ngFor="let medico of medicos" [value]="medico.Id">
+                                {{ medico.Name }}                
+                            </option>
+                        </select>
                     </div>
                     <div class="form-group">
                         <label>Razão</label>
