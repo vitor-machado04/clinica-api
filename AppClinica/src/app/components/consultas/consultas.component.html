@@ -17,18 +17,19 @@
                         <input type="text" class="form-control form-control-sm" formControlName="Id" />
                     </div>
                     <div class="form-group">
-                        <label>PacienteId</label>
-                        <input type="text" class="form-control form-control-sm" formControlName="PacienteId" />
+                        <label>Paciente</label>
+                        <select class="form-control form-control-sm" formControlName="PacienteId">
+                            <option *ngFor="let paciente of pacientes" [value]="paciente.id">
+                                {{ paciente.nome }}                
+                            </option>
+                        </select>
                     </div>
-                    <!-- <div class="form-group">
-                        <label>MedicoId</label>
-                        <input type="text" class="form-control form-control-sm" formControlName="MedicoId" />
-                    </div> -->
+        
                     <div class="form-group">
                         <label>Medico</label>
                         <select class="form-control form-control-sm" formControlName="MedicoId">
-                            <option *ngFor="let medico of medicos" [value]="medico.Id">
-                                {{ medico.Name }}                
+                            <option *ngFor="let medico of medicos" [value]="medico.id">
+                                {{ medico.name }}                
                             </option>
                         </select>
                     </div>

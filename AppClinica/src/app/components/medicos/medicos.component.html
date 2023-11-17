@@ -49,7 +49,59 @@
                     </div>
                     <button (click)="excluirMedico()">Excluir</button>
                 </form>
+                <button type="button" class="btn btn-sm btn-light"
+                    (click)="selecionarFormulario('cadastro')">Voltar</button>
             </div>
-        
-            
-            
+
+            <div *ngIf="formularioSelecionado === 'listar'">
+                <h6>Lista de Medicos</h6>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>Crm</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let medico of result | async">
+                            <td>{{ medico.id }}</td>
+                            <td>{{ medico.name }}</td>
+                            <td>{{ medico.crm }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="button" class="btn btn-sm btn-light"
+                    (click)="selecionarFormulario('cadastro')">Voltar</button>
+            </div>
+
+            <div *ngIf="formularioSelecionado === 'alterar'">
+                <h6>{{ tituloFormularioAtualizar }}</h6>
+                <form [formGroup]="formularioAtualizar" (ngSubmit)="atualizarMedico()">
+
+                    <div class="form-group">
+                        <label>Id</label>
+                        <input type="text" class="form-control form-control-sm" formControlName="Id" />
+                    </div>
+                    <div class="form-group">
+                        <label>Nome</label>
+                        <input type="text" class="form-control form-control-sm" formControlName="Name" />
+                    </div>
+                    <div class="form-group">
+                        <label>Crm</label>
+                        <input type="text" class="form-control form-control-sm" formControlName="Crm" />
+                    </div>
+                    <div class="container mt-3">
+                        <div class="row">
+                            <div>
+                                <button type="submit" class="btn btn-sm btn-outline-secondary">
+                                    Salvar
+                                </button>
+                            </div>
+                            <div class="pl-1">
+                                <button type="button" class="btn btn-sm btn-light">Voltar</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>

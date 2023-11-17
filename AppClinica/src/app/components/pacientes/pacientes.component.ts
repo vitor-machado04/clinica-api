@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { PacientesService } from 'src/app/Services/pacientes.service';
 import { Paciente } from 'src/app/Classes/Paciente';
+import { BehaviorSubject, Observable } from 'rxjs';
 
 @Component({
   selector: 'app-pacientes',
@@ -12,6 +13,9 @@ export class PacientesComponent implements OnInit {
   formulario: any;
   tituloFormulario: string = '';
   formularioExclusao: any;
+  pacientes!: Paciente[] ;
+  pacienteSubject = new BehaviorSubject<Paciente[]>([]);
+  result = this.pacienteSubject.asObservable();
   formularioSelecionado: string = 'cadastro'
   
   constructor(private pacientesService : PacientesService) { }
@@ -29,6 +33,9 @@ export class PacientesComponent implements OnInit {
     this.formularioExclusao = new FormGroup({
       Id: new FormControl(null),
     });
+
+    //Formulário de listar
+    this.exibirPaciente();
 
   }
   enviarFormulario(): void {
@@ -48,6 +55,12 @@ excluirPaciente(): void {
   } else {
     alert('Por favor, insira o ID do paciente que deseja excluir.');
   }
+}
+
+exibirPaciente(): void {
+  this.pacientesService.listar().subscribe(_pacientes => {
+    this.pacienteSubject.next(_pacientes)
+  });
 }
 
 selecionarFormulario(tipo: string) {

@@ -4,6 +4,9 @@ import { ConsultasService } from '../../Services/consultas.service';
 import { Consulta } from 'src/app/Classes/Consulta';
 import { Medico } from 'src/app/Classes/Medico';
 import { MedicosService } from 'src/app/Services/medicos.service';
+import { Paciente } from 'src/app/Classes/Paciente';
+import { PacientesService } from 'src/app/Services/pacientes.service';
+import { BehaviorSubject, Observable } from 'rxjs';
 
 @Component({
   selector: 'app-consultas',
@@ -15,24 +18,29 @@ export class ConsultasComponent {
   tituloFormulario: string = '';
   formularioExclusao: any;
   medicos: Array<Medico> | undefined;
+  pacientes: Array<Paciente> | undefined;
   formularioSelecionado: string = 'cadastro';
 
   constructor(private consultasService : ConsultasService,
-              private medicosService : MedicosService) { }
+              private medicosService : MedicosService,
+              private pacientesService: PacientesService) { }
 
   ngOnInit(): void {
     this.tituloFormulario = 'Nova Consulta';
     this.medicosService.listar().subscribe(medicos => {
       this.medicos = medicos;
-      console.log('Medicos:', this.medicos);
       if (this.medicos && this.medicos.length > 0) {
-        this.formulario.get('MedicoId')?.setValue(this.medicos[0].Id);
-      //   this.medicos = [
-      //     { Id: 1, Name: 'Vitor', Crm: '14141414' },
-      //     { Id: 2, Name: 'Teste', Crm: '1212121212' }
-      // ];
+        this.formulario.get('MedicoId')?.setValue(this.medicos[0].id);
       }
     });
+
+    this.pacientesService.listar().subscribe(pacientes => {
+      this.pacientes = pacientes;
+      if (this.pacientes && this.pacientes.length > 0) {
+        this.formulario.get('PacienteId')?.setValue(this.pacientes[0].id);
+      }
+    });
+
     this.formulario = new FormGroup({
       Id: new FormControl(null),
       PacienteId: new FormControl(null),
@@ -46,7 +54,9 @@ export class ConsultasComponent {
     this.formularioExclusao = new FormGroup({
       Id: new FormControl(null),
     })
+
   }
+
   enviarFormulario(): void {
     const consulta : Consulta = this.formulario.value;
     this.consultasService.cadastrar(consulta).subscribe(result => {

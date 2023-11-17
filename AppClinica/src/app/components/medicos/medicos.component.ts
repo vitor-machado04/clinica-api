@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { MedicosService } from 'src/app/Services/medicos.service';
 import { Medico } from 'src/app/Classes/Medico';
+import { BehaviorSubject, Observable } from 'rxjs';
 
 @Component({
   selector: 'app-medicos',
@@ -11,7 +12,12 @@ import { Medico } from 'src/app/Classes/Medico';
 export class MedicosComponent implements OnInit {
   formulario: any;
   tituloFormulario: string = '';
+  tituloFormularioAtualizar: string = '';
   formularioExclusao: any;
+  formularioAtualizar: any;
+  medicos!: Medico[] ;
+  medicoSubject = new BehaviorSubject<Medico[]>([]);
+  result = this.medicoSubject.asObservable();
   formularioSelecionado: string = 'cadastro';
   
 
@@ -30,13 +36,24 @@ export class MedicosComponent implements OnInit {
     this.formularioExclusao = new FormGroup({
     Id: new FormControl(null),
   });
+
+   // Formulário de listar
+  this.exibirMedico();
+
+  // Formulario de atualizar
+this.tituloFormularioAtualizar = 'Atualizando Medico';
+this.formularioAtualizar = new FormGroup({
+  Id: new FormControl(null),
+  Name: new FormControl(null),
+  Crm: new FormControl(null)
+});
 }
 
   enviarFormulario(): void {
     const medico : Medico = this.formulario.value;
     this.medicosService.cadastrar(medico).subscribe(result => {
       alert('Medico inserido com sucesso.');
-    })
+    });
   }
 
   
@@ -51,6 +68,19 @@ export class MedicosComponent implements OnInit {
     } else {
       alert('Por favor, insira o ID do médico que deseja excluir.');
     }
+  }
+
+  exibirMedico(): void {
+    this.medicosService.listar().subscribe(_medicos => {
+      this.medicoSubject.next(_medicos)
+    });
+  }
+
+  atualizarMedico(): void {
+    const medico: Medico = this.formularioAtualizar.value;
+    this.medicosService.atualizar(medico).subscribe(result => {
+      alert("Medico atualizado com sucesso!");
+    })
   }
 
   selecionarFormulario(tipo: string) {

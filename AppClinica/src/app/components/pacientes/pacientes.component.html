@@ -50,6 +50,27 @@
                     <button (click)="excluirPaciente()">Excluir</button>
                 </form>
             </div>
+            <div *ngIf="formularioSelecionado === 'listar'">
+                <h6>Lista de Pacientes</h6>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>CPF</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let paciente of result | async">
+                            <td>{{ paciente.id }}</td>
+                            <td>{{ paciente.nome }}</td>
+                            <td>{{ paciente.cpf }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="button" class="btn btn-sm btn-light" (click)="selecionarFormulario('cadastro')">Voltar</button>
+            </div>
         </div>
     </div>
 </div>
+

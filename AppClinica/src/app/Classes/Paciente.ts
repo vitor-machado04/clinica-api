@@ -1,5 +1,5 @@
 export class Paciente{
-    Id: number = 0;
-    Nome: string = '';
-    Cpf: string = '';
+    id: number = 0;
+    nome: string = '';
+    cpf: string = '';
 }
