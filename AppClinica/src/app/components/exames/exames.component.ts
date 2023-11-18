@@ -29,7 +29,7 @@ export class ExamesComponent implements OnInit {
     this.pacientesService.listar().subscribe(pacientes => {
       this.pacientes = pacientes;
       if (this.pacientes && this.pacientes.length > 0) {
-        this.formulario.get('PacienteId')?.setValue(this.pacientes[0])
+        this.formulario.get('PacienteId')?.setValue(this.pacientes[0].id);
       }
     });
 

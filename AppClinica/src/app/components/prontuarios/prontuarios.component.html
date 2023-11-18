@@ -17,12 +17,17 @@
                         <input type="text" class="form-control form-control-sm" formControlName="Id" />
                     </div>
                     <div class="form-group">
-                        <label>PacienteId</label>
-                        <input type="text" class="form-control form-control-sm" formControlName="PacienteId" />
+                        <label>Paciente</label>
+                        <select class="form-control form-control-sm" formControlName="PacienteId">
+                            <option *ngFor="let paciente of pacientes" [value]="paciente.id">
+                                {{ paciente.nome }}
+                            </option>
+                        </select>
                     </div>
                     <div class="form-group">
                         <label>Data Criação</label>
-                        <input type="datetime-local" class="form-control form-control-sm" formControlName="DataCriacao" />
+                        <input type="datetime-local" class="form-control form-control-sm"
+                            formControlName="DataCriacao" />
                     </div>
                     <div class="form-group">
                         <label>Diagnostico</label>
@@ -58,6 +63,31 @@
                     <button (click)="excluirProntuario()">Excluir</button>
                 </form>
             </div>
+            <div *ngIf="formularioSelecionado === 'listar'">
+                <h6>Lista de Prontuarios</h6>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>PACIENTE ID</th>
+                            <th>DATA CRIAÇÃO</th>
+                            <th>DIAGNOSTICO</th>
+                            <th>TRATAMENTO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let prontuario of result | async">
+                            <td>{{ prontuario.id }}</td>
+                            <td>{{ prontuario.pacienteId }}</td>
+                            <td>{{ prontuario.dataCriacao }}</td>
+                            <td>{{ prontuario.diagnostico }}</td>
+                            <td>{{ prontuario.tratamento }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="button" class="btn btn-sm btn-light"
+                    (click)="selecionarFormulario('cadastro')">Voltar</button>
+            </div>
+        </div>
         </div>
     </div>
-</div>

@@ -1,10 +1,10 @@
 import { Paciente } from "./Paciente";
 
 export class Prontuario {
-    Id: number = 0;
-    Paciente: Paciente | undefined;
-    PacienteId: number = 0;
-    DataCriacao: Date | null = null;
-    Diagnostico: string = '';
-    Tratamento: string = '';
+    id: number = 0;
+    paciente: Paciente | undefined;
+    pacienteId: number = 0;
+    dataCriacao: Date | null = null;
+    diagnostico: string = '';
+    tratamento: string = '';
 }
