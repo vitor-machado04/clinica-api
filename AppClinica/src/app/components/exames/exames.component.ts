@@ -2,6 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { ExamesService } from 'src/app/Services/exames.service';
 import { Exame } from 'src/app/Classes/Exame';
+import { BehaviorSubject, Observable } from 'rxjs';
+import { Paciente } from 'src/app/Classes/Paciente';
+import { PacientesService } from 'src/app/Services/pacientes.service';
 
 @Component({
   selector: 'app-exames',
@@ -12,12 +15,22 @@ export class ExamesComponent implements OnInit {
   formulario: any;
   tituloFormulario: string = '';
   formularioExclusao: any;
+  pacientes: Array<Paciente> | undefined;
+
   formularioSelecionado: string = 'cadastro';
 
-  constructor(private examesService : ExamesService) { }
+  constructor(private examesService : ExamesService,
+              private pacientesService : PacientesService) { }
 
   ngOnInit(): void {
     this.tituloFormulario = 'Novo Exame';
+    this.pacientesService.listar().subscribe(pacientes => {
+      this.pacientes = pacientes;
+      if (this.pacientes && this.pacientes.length > 0) {
+        this.formulario.get('PacienteId')?.setValue(this.pacientes[0])
+      }
+    });
+
     this.formulario = new FormGroup({
       Id: new FormControl(null),
       Nome: new FormControl(null),
