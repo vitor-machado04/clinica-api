@@ -16,7 +16,9 @@ export class ExamesComponent implements OnInit {
   tituloFormulario: string = '';
   formularioExclusao: any;
   pacientes: Array<Paciente> | undefined;
-
+  exames!: Exame[] ;
+  exameSubject = new BehaviorSubject<Exame[]>([]);
+  result = this.exameSubject.asObservable();
   formularioSelecionado: string = 'cadastro';
 
   constructor(private examesService : ExamesService,
@@ -44,6 +46,9 @@ export class ExamesComponent implements OnInit {
     this.formularioExclusao = new FormGroup({
     Id: new FormControl(null),
   });
+
+  // Formulário de listar
+  this.exibirExame();
 }
 
   enviarFormulario(): void {
@@ -63,6 +68,12 @@ export class ExamesComponent implements OnInit {
     } else {
       alert('Por favor, insira o ID do exame que deseja excluir.');
     }
+  }
+
+  exibirExame(): void {
+    this.examesService.listar().subscribe(_exames => {
+      this.exameSubject.next(_exames)
+    });
   }
 
   selecionarFormulario(tipo: string) {
