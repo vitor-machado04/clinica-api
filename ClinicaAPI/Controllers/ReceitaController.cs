@@ -61,7 +61,7 @@ namespace ClinicaAPI.Controllers
 
         // Alterando receita
         [HttpPut()]
-        [Route("alterar")]
+        [Route("atualizar")]
         public async Task<IActionResult> Alterar(Receita receita)
         {
             if (_context is null) return NotFound();

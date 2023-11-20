@@ -6037,19 +6037,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vitor Machado\\.nuget\\packages\\": {}
+    "C:\\Users\\Vinicius\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vitor Machado\\Desktop\\clinica-api\\clinica-api\\ClinicaAPI\\ClinicaAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Vinicius\\Desktop\\API 07-11\\clinica-api\\ClinicaAPI\\ClinicaAPI.csproj",
       "projectName": "ClinicaAPI",
-      "projectPath": "C:\\Users\\Vitor Machado\\Desktop\\clinica-api\\clinica-api\\ClinicaAPI\\ClinicaAPI.csproj",
-      "packagesPath": "C:\\Users\\Vitor Machado\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vitor Machado\\Desktop\\clinica-api\\clinica-api\\ClinicaAPI\\obj\\",
+      "projectPath": "C:\\Users\\Vinicius\\Desktop\\API 07-11\\clinica-api\\ClinicaAPI\\ClinicaAPI.csproj",
+      "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Vinicius\\Desktop\\API 07-11\\clinica-api\\ClinicaAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Vitor Machado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Vinicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6127,7 +6127,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

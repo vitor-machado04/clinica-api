@@ -1,9 +1,11 @@
+import { ExamesService } from 'src/app/Services/exames.service';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { ReceitasService } from 'src/app/Services/receitas.service';
 import { Receita } from 'src/app/Classes/Receita';
 import { Medico } from 'src/app/Classes/Medico';
 import { MedicosService } from 'src/app/Services/medicos.service';
+import { BehaviorSubject } from 'rxjs';
 
 @Component({
   selector: 'app-receitas',
@@ -14,6 +16,7 @@ export class ReceitasComponent implements OnInit {
   //Formulário
   formulario: any;
   formularioExclusao: any;
+  formularioAtualizar: any;
   formularioSelecionado: string = 'cadastro';
 
   //Titulos
@@ -24,6 +27,9 @@ export class ReceitasComponent implements OnInit {
 
   //Listar
   medicos: Array<Medico> | undefined;
+  receitas!: Receita[];
+  receitasSubject = new BehaviorSubject<Receita[]>([]);
+  result = this.receitasSubject.asObservable();
 
   constructor(private receitasService : ReceitasService,
               private medicosService : MedicosService) { }
@@ -33,7 +39,7 @@ export class ReceitasComponent implements OnInit {
     this.medicosService.listar().subscribe(medicos => {
       this.medicos = medicos;
       if (this.medicos && this.medicos.length > 0) {
-        this.formulario.get('MedicoId')?.setValue(this.medicos[0].id);
+        this.formulario.get('IdMedico')?.setValue(this.medicos[0].id);
       }
     });
 
@@ -43,13 +49,27 @@ export class ReceitasComponent implements OnInit {
       Dosagem: new FormControl(null),
       InstrucoesUso: new FormControl(null),
       DataEmissao: new FormControl(null),
-      MedicoId: new FormControl(null) 
+      IdMedico: new FormControl(null)
     });
 
     // Formulário de exclusão
     this.tituloFormularioExcluir = 'Deletando uma Receita'
     this.formularioExclusao = new FormGroup({
+      Id: new FormControl(null),
+  });
+
+  // Formulário de listar receita
+  this.exibirReceita();
+
+  // Formulário de Alterar
+  this.tituloFormularioAtualizar = 'Atualizar Receita'
+  this.formularioAtualizar = new FormGroup({
     Id: new FormControl(null),
+    Medicamento: new FormControl(null),
+    Dosagem: new FormControl(null),
+    InstrucoesUso: new FormControl(null),
+    DataEmissao: new FormControl(null),
+    IdMedico: new FormControl(null)
   });
 }
 
@@ -70,6 +90,21 @@ export class ReceitasComponent implements OnInit {
     } else {
       alert('Por favor, insira o ID da receita que deseja excluir.');
     }
+  }
+
+  exibirReceita(): void {
+    this.receitasService.listar().subscribe(_receita => {
+      this.receitasSubject.next(_receita)
+    });
+  }
+
+  atualizarReceita(): void {
+    const receita: Receita = this.formularioAtualizar.value;
+
+    this.receitasService.atualizar(receita).subscribe((result) => {
+      alert('Atualizado com sucesso!');
+      window.location.reload();
+    });
   }
 
   selecionarFormulario(tipo: string) {

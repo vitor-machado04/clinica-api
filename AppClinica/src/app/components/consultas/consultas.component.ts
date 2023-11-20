@@ -110,7 +110,7 @@ export class ConsultasComponent {
   atualizarConsulta(): void {
       const consulta: Consulta = this.formularioAtualizar.value;
       console.log(consulta);
-  
+
       this.consultasService.atualizar(consulta).subscribe((result) => {
         alert('Atualizado com sucesso!');
         window.location.reload();
