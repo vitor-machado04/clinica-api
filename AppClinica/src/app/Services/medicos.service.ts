@@ -34,6 +34,7 @@ export class MedicosService {
     const url = `${this.apiUrl}/atualizar`;
     return this.http.put<Medico>(url, medico, httpOptions);
   }
+  
   excluir(Id: number): Observable<any> {
     const url = `${this.apiUrl}/excluir/${Id}`;
     return this.http.delete<number>(url, httpOptions);

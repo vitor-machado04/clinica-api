@@ -6,6 +6,7 @@
                 <button type="button" class="btn btn-light" (click)="selecionarFormulario('exclusao')">Exclusão</button>
                 <button type="button" class="btn btn-light" (click)="selecionarFormulario('alterar')">Alterar</button>
                 <button type="button" class="btn btn-light" (click)="selecionarFormulario('listar')">Listar</button>
+                <button type="button" class="btn btn-light" (click)="selecionarFormulario('buscar')">Buscar</button>
             </div>
 
             <div *ngIf="formularioSelecionado === 'cadastro'">
@@ -40,7 +41,7 @@
             </div>
 
             <div *ngIf="formularioSelecionado === 'exclusao'">
-                <h6>Excluir Médico</h6>
+                <h6>{{ tituloFormularioExcluir }}</h6>
                 <form [formGroup]="formularioExclusao">
 
                     <div class="form-group">
@@ -105,3 +106,4 @@
                     </div>
                 </form>
             </div>
+            

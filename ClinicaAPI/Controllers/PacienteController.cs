@@ -51,8 +51,8 @@ namespace ClinicaAPI.Controllers
 
         // Alterando paciente
         [HttpPut]
-        [Route("alterar")]
-        public async Task<IActionResult> Alterar(Paciente paciente)
+        [Route("atualizar")]
+        public async Task<IActionResult> Atualizar(Paciente paciente)
         {
             if (_context.Paciente is null) return NotFound();
             if (!CpfValidator.ValidateCpf(paciente.Cpf)) return BadRequest("CPF inválido.");

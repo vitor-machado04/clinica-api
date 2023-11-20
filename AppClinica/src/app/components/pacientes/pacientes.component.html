@@ -6,6 +6,7 @@
                 <button type="button" class="btn btn-light" (click)="selecionarFormulario('exclusao')">Exclusão</button>
                 <button type="button" class="btn btn-light" (click)="selecionarFormulario('alterar')">Alterar</button>
                 <button type="button" class="btn btn-light" (click)="selecionarFormulario('listar')">Listar</button>
+                <button type="button" class="btn btn-light" (click)="selecionarFormulario('buscar')">Buscar</button>
             </div>
 
             <div *ngIf="formularioSelecionado === 'cadastro'">
@@ -40,7 +41,7 @@
             </div>
 
             <div *ngIf="formularioSelecionado === 'exclusao'">
-                <h6>Excluir Paciente</h6>
+                <h6>{{ tituloFormularioExcluir }}</h6>
                 <form [formGroup]="formularioExclusao">
 
                     <div class="form-group">
@@ -50,6 +51,37 @@
                     <button (click)="excluirPaciente()">Excluir</button>
                 </form>
             </div>
+
+            <div *ngIf="formularioSelecionado === 'alterar'">
+                <h6>{{ tituloFormularioAtualizar }}</h6>
+                <form [formGroup]="formularioAlterar" (ngSubmit)="atualizarPaciente()">
+
+                    <div class="form-group">
+                        <label>Id</label>
+                        <input type="text" class="form-control form-control-sm" formControlName="Id" />
+                    </div>
+                    <div class="form-group">
+                        <label>Nome</label>
+                        <input type="text" class="form-control form-control-sm" formControlName="Nome" />
+                    </div>
+                    <div class="form-group">
+                        <label>Cpf</label>
+                        <input type="text" class="form-control form-control-sm" formControlName="Cpf" />
+                    </div>
+                    <div class="container mt-3">
+                        <div class="row">
+                            <div>
+                                <button type="submit" class="btn btn-sm btn-outline-secondary">
+                                    Salvar
+                                </button>
+                            </div>
+                            <button type="button" class="btn btn-sm btn-light"
+                            (click)="selecionarFormulario('cadastro')">Voltar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
             <div *ngIf="formularioSelecionado === 'listar'">
                 <h6>Lista de Pacientes</h6>
                 <table class="table table-bordered">
@@ -68,9 +100,9 @@
                         </tr>
                     </tbody>
                 </table>
-                <button type="button" class="btn btn-sm btn-light" (click)="selecionarFormulario('cadastro')">Voltar</button>
+                <button type="button" class="btn btn-sm btn-light"
+                    (click)="selecionarFormulario('cadastro')">Voltar</button>
             </div>
         </div>
     </div>
 </div>
-

@@ -10,15 +10,30 @@ import { BehaviorSubject, Observable } from 'rxjs';
   styleUrls: ['./pacientes.component.css']
 })
 export class PacientesComponent implements OnInit {
+  //Formulários
   formulario: any;
-  tituloFormulario: string = '';
   formularioExclusao: any;
-  pacientes!: Paciente[] ;
+  formularioAlterar: any;
+  formularioBuscar: any;
+  formularioSelecionado: string = 'cadastro'
+
+  //Titulos
+  tituloFormulario: string = '';
+  tituloFormularioAtualizar: string = '';
+  tituloFormularioBuscar: string = '';
+  tituloFormularioExcluir: string = '';
+
+  //Listar
+  pacientes!: Paciente[];
   pacienteSubject = new BehaviorSubject<Paciente[]>([]);
   result = this.pacienteSubject.asObservable();
-  formularioSelecionado: string = 'cadastro'
-  
-  constructor(private pacientesService : PacientesService) { }
+
+  //Buscar
+  pacientesBuscar!: Paciente[];
+  pacienteBuscaSubject = new BehaviorSubject<Paciente[]>([]);
+  resultBusca = this.pacienteSubject.asObservable();
+
+  constructor(private pacientesService: PacientesService) { }
 
   ngOnInit(): void {
     this.tituloFormulario = 'Novo Paciente';
@@ -29,7 +44,7 @@ export class PacientesComponent implements OnInit {
     });
 
     // Formulario de exclusão
-    this.tituloFormulario = 'Deletando paciente'
+    this.tituloFormularioExcluir = 'Deletando paciente'
     this.formularioExclusao = new FormGroup({
       Id: new FormControl(null),
     });
@@ -37,34 +52,67 @@ export class PacientesComponent implements OnInit {
     //Formulário de listar
     this.exibirPaciente();
 
+    //Formulário de alterar
+    this.tituloFormularioAtualizar = 'Atualizando Paciente'
+    this.formularioAlterar = new FormGroup({
+      Id: new FormControl(null),
+      Nome: new FormControl(null),
+      Cpf: new FormControl(null)
+    });
+
+    //Formulário de busca
+    this.tituloFormularioBuscar = 'Buscar Paciente por ID:'
+    this.formularioBuscar = new FormGroup({
+      id: new FormControl(null),
+    })
+
   }
   enviarFormulario(): void {
-    const paciente : Paciente = this.formulario.value;
+    const paciente: Paciente = this.formulario.value;
     this.pacientesService.cadastrar(paciente).subscribe(result => {
       alert('Paciente inserido com sucesso.');
     })
-}
-
-excluirPaciente(): void {
-  const idExclusao: number = this.formularioExclusao.get('Id')?.value;
-
-  if(idExclusao) {
-    this.pacientesService.excluir(idExclusao).subscribe(result => {
-      alert('Paciente excluído com sucesso.')
-    });
-  } else {
-    alert('Por favor, insira o ID do paciente que deseja excluir.');
   }
-}
 
-exibirPaciente(): void {
-  this.pacientesService.listar().subscribe(_pacientes => {
-    this.pacienteSubject.next(_pacientes)
-  });
-}
+  excluirPaciente(): void {
+    const idExclusao: number = this.formularioExclusao.get('Id')?.value;
 
-selecionarFormulario(tipo: string) {
-  this.formularioSelecionado = tipo;
-}
+    if (idExclusao) {
+      this.pacientesService.excluir(idExclusao).subscribe(result => {
+        alert('Paciente excluído com sucesso.')
+      });
+    } else {
+      alert('Por favor, insira o ID do paciente que deseja excluir.');
+    }
+  }
+
+  exibirPaciente(): void {
+    this.pacientesService.listar().subscribe(_pacientes => {
+      this.pacienteSubject.next(_pacientes)
+    });
+  }
+
+  atualizarPaciente(): void {
+    const paciente: Paciente = this.formularioAlterar.value;
+    this.pacientesService.atualizar(paciente).subscribe(result => {
+      alert("Paciente atualizado com sucesso!");
+    });
+  }
+
+  buscarPorId(): void {
+    const id: number = this.formularioBuscar.get('id')?.value;
+
+    if (id) {
+      this.pacientesService.buscar(id).subscribe((resultBusca) => {
+        this.pacienteBuscaSubject.next([resultBusca]);
+      });
+    } else {
+      alert('Insira um ID válido.');
+    }
+  }
+
+  selecionarFormulario(tipo: string) {
+    this.formularioSelecionado = tipo;
+  }
 
 }

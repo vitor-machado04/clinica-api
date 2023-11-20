@@ -10,18 +10,25 @@ import { BehaviorSubject, Observable } from 'rxjs';
   styleUrls: ['./medicos.component.css']
 })
 export class MedicosComponent implements OnInit {
+  //Formulários
   formulario: any;
-  tituloFormulario: string = '';
-  tituloFormularioAtualizar: string = '';
   formularioExclusao: any;
   formularioAtualizar: any;
-  medicos!: Medico[] ;
+  formularioSelecionado: string = 'cadastro';
+  formularioBusca: any;
+  
+  //Titulos
+  tituloFormulario: string = '';
+  tituloFormularioAtualizar: string = '';
+  tituloFormularioBusca: string = '';
+  tituloFormularioExcluir: string = '';
+
+  //Listar
+  medicos!: Medico[];
   medicoSubject = new BehaviorSubject<Medico[]>([]);
   result = this.medicoSubject.asObservable();
-  formularioSelecionado: string = 'cadastro';
   
-
-  constructor(private medicosService : MedicosService) { }
+  constructor(private medicosService: MedicosService) { }
 
   ngOnInit(): void {
     this.tituloFormulario = 'Novo Medico';
@@ -32,31 +39,29 @@ export class MedicosComponent implements OnInit {
     });
 
     // Formulário de exclusão
-    this.tituloFormulario = 'Deletando um Medico'
+    this.tituloFormularioExcluir = 'Deletando um Medico'
     this.formularioExclusao = new FormGroup({
-    Id: new FormControl(null),
-  });
+      Id: new FormControl(null),
+    });
 
-   // Formulário de listar
-  this.exibirMedico();
+    // Formulário de listar
+    this.exibirMedico();
 
-  // Formulario de atualizar
-this.tituloFormularioAtualizar = 'Atualizando Medico';
-this.formularioAtualizar = new FormGroup({
-  Id: new FormControl(null),
-  Name: new FormControl(null),
-  Crm: new FormControl(null)
-});
-}
+    // Formulario de atualizar
+    this.tituloFormularioAtualizar = 'Atualizando Medico';
+    this.formularioAtualizar = new FormGroup({
+      Id: new FormControl(null),
+      Name: new FormControl(null),
+      Crm: new FormControl(null)
+    });
+  }
 
   enviarFormulario(): void {
-    const medico : Medico = this.formulario.value;
+    const medico: Medico = this.formulario.value;
     this.medicosService.cadastrar(medico).subscribe(result => {
       alert('Medico inserido com sucesso.');
     });
   }
-
-  
 
   excluirMedico(): void {
     const idExclusao: number = this.formularioExclusao.get('Id')?.value;
@@ -80,7 +85,7 @@ this.formularioAtualizar = new FormGroup({
     const medico: Medico = this.formularioAtualizar.value;
     this.medicosService.atualizar(medico).subscribe(result => {
       alert("Medico atualizado com sucesso!");
-    })
+    });
   }
 
   selecionarFormulario(tipo: string) {

@@ -47,8 +47,8 @@ namespace ClinicaAPI.Controllers {
 
         // Alterando médico
         [HttpPut()]
-        [Route("alterar")]
-        public async Task<IActionResult> Alterar(Medico medico)
+        [Route("atualizar")]
+        public async Task<IActionResult> Atualizar(Medico medico)
         {
             if (_context.Medico is null) return NotFound();
             _context.Medico.Update(medico);
