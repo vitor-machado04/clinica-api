@@ -24,9 +24,13 @@ export class MedicosComponent implements OnInit {
   tituloFormularioExcluir: string = '';
 
   //Listar
-  medicos!: Medico[];
   medicoSubject = new BehaviorSubject<Medico[]>([]);
   result = this.medicoSubject.asObservable();
+
+  //Buscar
+  medicoBuscaSubject = new BehaviorSubject<Medico[]>([]);
+  resultBusca = this.medicoBuscaSubject.asObservable();
+
   
   constructor(private medicosService: MedicosService) { }
 
@@ -54,6 +58,12 @@ export class MedicosComponent implements OnInit {
       Name: new FormControl(null),
       Crm: new FormControl(null)
     });
+
+    // Formulário de buscar 
+    this.tituloFormularioBusca = 'Buscar Medico'
+    this.formularioBusca = new FormGroup ({
+      id: new FormControl(null),
+    })
   }
 
   enviarFormulario(): void {
@@ -86,6 +96,18 @@ export class MedicosComponent implements OnInit {
     this.medicosService.atualizar(medico).subscribe(result => {
       alert("Medico atualizado com sucesso!");
     });
+  }
+
+  buscarPorId(): void {
+    const id: number = this.formularioBusca.get('id')?.value;
+
+    if (id) {
+      this.medicosService.buscar(id).subscribe((result) => {
+        this.medicoBuscaSubject.next([result]);
+      });
+    } else {
+      alert('Insira um ID válido.');
+    }
   }
 
   selecionarFormulario(tipo: string) {

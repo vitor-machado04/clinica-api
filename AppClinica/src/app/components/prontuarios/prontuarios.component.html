@@ -6,6 +6,7 @@
                 <button type="button" class="btn btn-light" (click)="selecionarFormulario('exclusao')">Exclusão</button>
                 <button type="button" class="btn btn-light" (click)="selecionarFormulario('alterar')">Alterar</button>
                 <button type="button" class="btn btn-light" (click)="selecionarFormulario('listar')">Listar</button>
+                <button type="button" class="btn btn-light" (click)="selecionarFormulario('buscar')">Buscar</button>
             </div>
 
             <div *ngIf="formularioSelecionado === 'cadastro'">
@@ -30,7 +31,7 @@
                             formControlName="DataCriacao" />
                     </div>
                     <div class="form-group">
-                        <label>Diagnostico</label>
+                        <label>Diagnóstico</label>
                         <input type="text" class="form-control form-control-sm" formControlName="Diagnostico" />
                     </div>
                     <div class="form-group">
@@ -63,6 +64,7 @@
                     <button (click)="excluirProntuario()">Excluir</button>
                 </form>
             </div>
+
             <div *ngIf="formularioSelecionado === 'listar'">
                 <h6>Lista de Prontuarios</h6>
                 <table class="table table-bordered">
@@ -88,6 +90,49 @@
                 <button type="button" class="btn btn-sm btn-light"
                     (click)="selecionarFormulario('cadastro')">Voltar</button>
             </div>
-        </div>
+            <div *ngIf="formularioSelecionado === 'alterar'">
+                <h6>{{ tituloFormularioAtualizar }}</h6>
+                <form [formGroup]="formularioAtualizar" (ngSubmit)="atualizarProntuario()">
+
+                    <div class="form-group">
+                        <label>Id</label>
+                        <input type="text" class="form-control form-control-sm" formControlName="Id" />
+                    </div>
+                    <div class="form-group">
+                        <label>Paciente</label>
+                        <select class="form-control form-control-sm" formControlName="PacienteId">
+                            <option *ngFor="let paciente of pacientes" [value]="paciente.id">
+                                {{ paciente.nome }}
+                            </option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Data Criação</label>
+                        <input type="datetime-local" class="form-control form-control-sm"
+                            formControlName="DataCriacao" />
+                    </div>
+                    <div class="form-group">
+                        <label>Diagnóstico</label>
+                        <input type="text" class="form-control form-control-sm" formControlName="Diagnostico" />
+                    </div>
+                    <div class="form-group">
+                        <label>Tratamento</label>
+                        <input type="text" class="form-control form-control-sm" formControlName="Tratamento" />
+                    </div>
+                    <div class="container mt-3">
+                        <div class="row">
+                            <div>
+                                <button type="submit" class="btn btn-sm btn-outline-secondary">
+                                    Salvar
+                                </button>
+                            </div>
+                            <div class="pl-1">
+                                <button type="button" class="btn btn-sm btn-light">Voltar</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
+</div>

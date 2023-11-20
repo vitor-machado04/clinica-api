@@ -31,7 +31,7 @@ export class PacientesComponent implements OnInit {
   //Buscar
   pacientesBuscar!: Paciente[];
   pacienteBuscaSubject = new BehaviorSubject<Paciente[]>([]);
-  resultBusca = this.pacienteSubject.asObservable();
+  resultBusca = this.pacienteBuscaSubject.asObservable();
 
   constructor(private pacientesService: PacientesService) { }
 
@@ -64,9 +64,9 @@ export class PacientesComponent implements OnInit {
     this.tituloFormularioBuscar = 'Buscar Paciente por ID:'
     this.formularioBuscar = new FormGroup({
       id: new FormControl(null),
-    })
-
+    });
   }
+  
   enviarFormulario(): void {
     const paciente: Paciente = this.formulario.value;
     this.pacientesService.cadastrar(paciente).subscribe(result => {
@@ -103,8 +103,8 @@ export class PacientesComponent implements OnInit {
     const id: number = this.formularioBuscar.get('id')?.value;
 
     if (id) {
-      this.pacientesService.buscar(id).subscribe((resultBusca) => {
-        this.pacienteBuscaSubject.next([resultBusca]);
+      this.pacientesService.buscar(id).subscribe((result) => {
+        this.pacienteBuscaSubject.next([result]);
       });
     } else {
       alert('Insira um ID válido.');

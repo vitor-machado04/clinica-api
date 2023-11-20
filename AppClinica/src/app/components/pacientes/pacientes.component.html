@@ -76,7 +76,7 @@
                                 </button>
                             </div>
                             <button type="button" class="btn btn-sm btn-light"
-                            (click)="selecionarFormulario('cadastro')">Voltar</button>
+                                (click)="selecionarFormulario('cadastro')">Voltar</button>
                         </div>
                     </div>
                 </form>
@@ -94,6 +94,39 @@
                     </thead>
                     <tbody>
                         <tr *ngFor="let paciente of result | async">
+                            <td>{{ paciente.id }}</td>
+                            <td>{{ paciente.nome }}</td>
+                            <td>{{ paciente.cpf }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="button" class="btn btn-sm btn-light"
+                    (click)="selecionarFormulario('cadastro')">Voltar</button>
+            </div>
+            <div *ngIf="formularioSelecionado === 'buscar'">
+                <h2>Buscar por ID</h2>
+                <form [formGroup]="formularioBuscar" (ngSubmit)="buscarPorId()">
+                    <div class="form-group">
+                        <label for="idBusca">ID:</label>
+                        <input type="number" id="idBusca" formControlName="id" class="form-control form-control-sm" />
+                    </div>
+                    <button type="submit" class="btn btn-sm btn-outline-secondary">Buscar</button>
+                </form>
+            </div>
+            <hr>
+            <!-- Adicione a tabela de resultados -->
+            <div *ngIf=" formularioSelecionado === 'buscar'">
+                <h2>Resultado</h2>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>Cpf</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let paciente of resultBusca | async">
                             <td>{{ paciente.id }}</td>
                             <td>{{ paciente.nome }}</td>
                             <td>{{ paciente.cpf }}</td>

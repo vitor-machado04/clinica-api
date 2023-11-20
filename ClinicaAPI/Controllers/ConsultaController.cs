@@ -65,8 +65,8 @@ namespace ClinicaAPI.Controllers
 
         // Alterando consulta
         [HttpPut()]
-        [Route("alterar")]
-        public async Task<IActionResult> Alterar(Consulta consulta)
+        [Route("atualizar")]
+        public async Task<IActionResult> Atualizar(Consulta consulta)
         {
             if (_context is null) return NotFound();
             var tempMedico = await _context.Medico.FindAsync(consulta.MedicoId);

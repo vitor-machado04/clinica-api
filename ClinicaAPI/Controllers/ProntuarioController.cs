@@ -59,8 +59,8 @@ namespace ClinicaAPI.Controllers
 
         // Alterando um prontuario
         [HttpPut()]
-        [Route("alterar")]
-        public async Task<IActionResult> Alterar(Prontuario prontuario)
+        [Route("atualizar")]
+        public async Task<IActionResult> Atualizar(Prontuario prontuario)
         {
             if (_context is null) return NotFound();
             var tempPaciente = await _context.Paciente.FindAsync(prontuario.PacienteId);

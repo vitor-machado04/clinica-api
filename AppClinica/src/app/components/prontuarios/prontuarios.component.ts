@@ -12,14 +12,23 @@ import { BehaviorSubject, Observable } from 'rxjs';
   styleUrls: ['./prontuarios.component.css']
 })
 export class ProntuariosComponent {
+  //Formulários
   formulario: any;
-  tituloFormulario: string = '';
   formularioExclusao: any;
+  formularioAtualizar: any;
+  formularioSelecionado: string = 'cadastro';
+
+  //Titulos
+  tituloFormulario: string = '';
+  tituloFormularioAtualizar: string = '';
+  tituloFormularioBusca: string = '';
+  tituloFormularioExcluir: string = '';
+
+  //Listar
   pacientes: Array<Paciente> | undefined;
   prontuarios!: Prontuario[];
   prontuarioSubject = new BehaviorSubject<Prontuario[]>([]);
   result = this.prontuarioSubject.asObservable();
-  formularioSelecionado: string = 'cadastro';
 
   constructor(private prontuariosService: ProntuariosService,
     private pacientesService: PacientesService) { }
@@ -42,19 +51,30 @@ export class ProntuariosComponent {
     });
 
     // Formulário de exclusão
-    this.tituloFormulario = 'Deletando Prontuario'
+    this.tituloFormularioExcluir = 'Deletando Prontuario'
     this.formularioExclusao = new FormGroup({
       Id: new FormControl(null),
     });
+
+    // Formulário de listar prontuario
+    this.exibirProntuario();
+
+    // Formulário de Alterar
+    this.tituloFormularioAtualizar = 'Atualizar Prontuario'
+    this.formularioAtualizar = new FormGroup({
+      Id: new FormControl(null),
+      PacienteId: new FormControl(null),
+      DataCriacao: new FormControl(null),
+      Diagnostico: new FormControl(null),
+      Tratamento: new FormControl(null)
+    });
   }
+
   enviarFormulario(): void {
     const prontuario: Prontuario = this.formulario.value;
     this.prontuariosService.cadastrar(prontuario).subscribe(result => {
       alert('Prontuario inserida com sucesso.');
     });
-
-    // Formulário de listar prontuario
-    this.exibirProntuario();
   }
 
   excluirProntuario(): void {
@@ -72,6 +92,15 @@ export class ProntuariosComponent {
   exibirProntuario(): void {
     this.prontuariosService.listar().subscribe(_prontuario => {
       this.prontuarioSubject.next(_prontuario)
+    });
+  }
+
+  atualizarProntuario(): void {
+    const prontuario: Prontuario = this.formularioAtualizar.value;
+
+    this.prontuariosService.atualizar(prontuario).subscribe((result) => {
+      alert('Atualizado com sucesso!');
+      window.location.reload();
     });
   }
 

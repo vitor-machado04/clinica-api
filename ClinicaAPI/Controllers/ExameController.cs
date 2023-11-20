@@ -59,8 +59,8 @@ namespace ClinicaAPI.Controllers
 
         // Alterando exame
         [HttpPut()]
-        [Route("alterar")]
-        public async Task<IActionResult> Alterar(Exame exame)
+        [Route("atualizar")]
+        public async Task<IActionResult> Atualizar(Exame exame)
         {
             if (_context is null) return NotFound();
             var tempPaciente = await _context.Paciente.FindAsync(exame.PacienteId);

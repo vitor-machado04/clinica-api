@@ -12,14 +12,24 @@ import { PacientesService } from 'src/app/Services/pacientes.service';
   styleUrls: ['./exames.component.css']
 })
 export class ExamesComponent implements OnInit {
+  //Formalários
   formulario: any;
-  tituloFormulario: string = '';
   formularioExclusao: any;
+  formularioAtualizar: any;
+  formularioSelecionado: string = 'cadastro';
+
+  //Titulos
+  tituloFormulario: string = '';
+  tituloFormularioAtualizar: string = '';
+  tituloFormularioBusca: string = '';
+  tituloFormularioExcluir: string = '';
+
+  //Listar
   pacientes: Array<Paciente> | undefined;
   exames!: Exame[] ;
   exameSubject = new BehaviorSubject<Exame[]>([]);
   result = this.exameSubject.asObservable();
-  formularioSelecionado: string = 'cadastro';
+  
 
   constructor(private examesService : ExamesService,
               private pacientesService : PacientesService) { }
@@ -42,13 +52,24 @@ export class ExamesComponent implements OnInit {
     });
 
     // Formulário de exclusão
-    this.tituloFormulario = 'Deletando um Exame'
+    this.tituloFormularioExcluir = 'Deletando um Exame'
     this.formularioExclusao = new FormGroup({
     Id: new FormControl(null),
   });
 
+  // Formulário Atualizar
+  this.tituloFormularioAtualizar = 'Atualizando Exame'
+  this.formularioAtualizar = new FormGroup({
+    Id: new FormControl(null),
+    Nome: new FormControl(null),
+    Data: new FormControl(null),
+    Resultado: new FormControl(null),
+    PacienteId: new FormControl(null)
+  });
+
   // Formulário de listar
   this.exibirExame();
+  console.log('Entrou', this.exibirExame());
 }
 
   enviarFormulario(): void {
@@ -75,6 +96,17 @@ export class ExamesComponent implements OnInit {
       this.exameSubject.next(_exames)
     });
   }
+
+  atualizarExame(): void {
+      const exame: Exame = this.formularioAtualizar.value;
+      console.log(exame);
+  
+      this.examesService.atualizar(exame).subscribe((result) => {
+        alert('Atualizado com sucesso!');
+        window.location.reload();
+      });
+    }
+  
 
   selecionarFormulario(tipo: string) {
     this.formularioSelecionado = tipo;

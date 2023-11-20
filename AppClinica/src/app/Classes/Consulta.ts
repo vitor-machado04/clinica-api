@@ -2,11 +2,11 @@ import { Medico } from "./Medico";
 import { Paciente } from "./Paciente";
 
 export class Consulta {
-  Id: number = 0;
-  Paciente: Paciente | undefined;
-  PacienteId: number = 0;
-  Medico: Medico | undefined;
-  MedicoId: number = 0;
-  Razao: string = '';
-  DataHora: Date | null = null;
+  id: number = 0;
+  paciente: Paciente | undefined;
+  pacienteId: number = 0;
+  medico: Medico | undefined;
+  medicoId: number = 0;
+  razao: string = '';
+  dataHora: Date | null = null;
 }

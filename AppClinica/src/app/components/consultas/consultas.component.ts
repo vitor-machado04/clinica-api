@@ -14,16 +14,28 @@ import { BehaviorSubject, Observable } from 'rxjs';
   styleUrls: ['./consultas.component.css']
 })
 export class ConsultasComponent {
+  //formularios
   formulario: any;
-  tituloFormulario: string = '';
   formularioExclusao: any;
-  medicos: Array<Medico> | undefined;
-  pacientes: Array<Paciente> | undefined;
+  formularioAtualizar: any;
   formularioSelecionado: string = 'cadastro';
 
-  constructor(private consultasService : ConsultasService,
-              private medicosService : MedicosService,
-              private pacientesService: PacientesService) { }
+  //Titulos
+  tituloFormulario: string = '';
+  tituloFormularioAtualizar: string = '';
+  tituloFormularioBusca: string = '';
+  tituloFormularioExcluir: string = '';
+
+  //Listar
+  medicos: Array<Medico> | undefined;
+  pacientes: Array<Paciente> | undefined;
+  consultas!: Consulta[];
+  consultaSubject = new BehaviorSubject<Consulta[]>([]);
+  result = this.consultaSubject.asObservable();
+
+  constructor(private consultasService: ConsultasService,
+    private medicosService: MedicosService,
+    private pacientesService: PacientesService) { }
 
   ngOnInit(): void {
     this.tituloFormulario = 'Nova Consulta';
@@ -50,15 +62,28 @@ export class ConsultasComponent {
     });
 
     // Formulário de exclusão
-    this.tituloFormulario = 'Deletando Consulta'
+    this.tituloFormularioExcluir = 'Deletando Consulta'
     this.formularioExclusao = new FormGroup({
       Id: new FormControl(null),
-    })
+    });
+
+    // Formulário de listar
+    this.exibirConsulta();
+
+    //Formulário de atualizar
+    this.tituloFormularioAtualizar = 'Atualizando Consulta'
+    this.formularioAtualizar = new FormGroup ({
+      Id: new FormControl(null),
+      PacienteId: new FormControl(null),
+      MedicoId: new FormControl(null),
+      Razao: new FormControl(null),
+      DataHora: new FormControl(null)
+    });
 
   }
 
   enviarFormulario(): void {
-    const consulta : Consulta = this.formulario.value;
+    const consulta: Consulta = this.formulario.value;
     this.consultasService.cadastrar(consulta).subscribe(result => {
       alert('Consulta inserida com sucesso.');
     })
@@ -75,6 +100,22 @@ export class ConsultasComponent {
       alert('Por favor, insira o ID da consulta que deseja excluir.');
     }
   }
+
+  exibirConsulta(): void {
+    this.consultasService.listar().subscribe(_consultas => {
+      this.consultaSubject.next(_consultas)
+    });
+  }
+
+  atualizarConsulta(): void {
+      const consulta: Consulta = this.formularioAtualizar.value;
+      console.log(consulta);
+  
+      this.consultasService.atualizar(consulta).subscribe((result) => {
+        alert('Atualizado com sucesso!');
+        window.location.reload();
+      });
+    }
 
   selecionarFormulario(tipo: string) {
     this.formularioSelecionado = tipo;
