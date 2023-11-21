@@ -16,12 +16,13 @@ export class ProntuariosComponent {
   formulario: any;
   formularioExclusao: any;
   formularioAtualizar: any;
+  formularioBuscar: any;
   formularioSelecionado: string = 'cadastro';
 
   //Titulos
   tituloFormulario: string = '';
   tituloFormularioAtualizar: string = '';
-  tituloFormularioBusca: string = '';
+  tituloFormularioBuscar: string = '';
   tituloFormularioExcluir: string = '';
 
   //Listar
@@ -29,6 +30,11 @@ export class ProntuariosComponent {
   prontuarios!: Prontuario[];
   prontuarioSubject = new BehaviorSubject<Prontuario[]>([]);
   result = this.prontuarioSubject.asObservable();
+
+  //Buscar
+  prontuarioBuscar!: Prontuario[];
+  prontuarioBuscaSubject = new BehaviorSubject<Prontuario[]>([]);
+  resultBusca = this.prontuarioBuscaSubject.asObservable();
 
   constructor(private prontuariosService: ProntuariosService,
     private pacientesService: PacientesService) { }
@@ -68,6 +74,12 @@ export class ProntuariosComponent {
       Diagnostico: new FormControl(null),
       Tratamento: new FormControl(null)
     });
+
+    //Formulário de busca
+    this.tituloFormularioBuscar = 'Buscar Prontuario por ID:'
+    this.formularioBuscar = new FormGroup({
+      id: new FormControl(null),
+    });
   }
 
   enviarFormulario(): void {
@@ -102,6 +114,18 @@ export class ProntuariosComponent {
       alert('Atualizado com sucesso!');
       window.location.reload();
     });
+  }
+
+  buscarPorId(): void {
+    const id: number = this.formularioBuscar.get('id')?.value;
+
+    if (id) {
+      this.prontuariosService.buscar(id).subscribe((result) => {
+        this.prontuarioBuscaSubject.next([result]);
+      });
+    } else {
+      alert('Insira um ID válido.');
+    }
   }
 
   selecionarFormulario(tipo: string) {

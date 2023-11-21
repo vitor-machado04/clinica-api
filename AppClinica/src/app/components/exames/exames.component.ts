@@ -16,12 +16,13 @@ export class ExamesComponent implements OnInit {
   formulario: any;
   formularioExclusao: any;
   formularioAtualizar: any;
+  formularioBuscar: any;
   formularioSelecionado: string = 'cadastro';
 
   //Titulos
   tituloFormulario: string = '';
   tituloFormularioAtualizar: string = '';
-  tituloFormularioBusca: string = '';
+  tituloFormularioBuscar: string = '';
   tituloFormularioExcluir: string = '';
 
   //Listar
@@ -29,7 +30,11 @@ export class ExamesComponent implements OnInit {
   exames!: Exame[] ;
   exameSubject = new BehaviorSubject<Exame[]>([]);
   result = this.exameSubject.asObservable();
-  
+
+  //Buscar
+  exameBuscar!: Exame[];
+  exameBuscaSubject = new BehaviorSubject<Exame[]>([]);
+  resultBusca = this.exameBuscaSubject.asObservable();
 
   constructor(private examesService : ExamesService,
               private pacientesService : PacientesService) { }
@@ -70,6 +75,12 @@ export class ExamesComponent implements OnInit {
   // Formulário de listar
   this.exibirExame();
   console.log('Entrou', this.exibirExame());
+
+  //Formulário de busca
+  this.tituloFormularioBuscar = 'Buscar Exame por ID:'
+  this.formularioBuscar = new FormGroup({
+    id: new FormControl(null),
+  });
 }
 
   enviarFormulario(): void {
@@ -100,13 +111,24 @@ export class ExamesComponent implements OnInit {
   atualizarExame(): void {
       const exame: Exame = this.formularioAtualizar.value;
       console.log(exame);
-  
+
       this.examesService.atualizar(exame).subscribe((result) => {
         alert('Atualizado com sucesso!');
         window.location.reload();
       });
     }
-  
+
+    buscarPorId(): void {
+      const id: number = this.formularioBuscar.get('id')?.value;
+
+      if (id) {
+        this.examesService.buscar(id).subscribe((result) => {
+          this.exameBuscaSubject.next([result]);
+        });
+      } else {
+        alert('Insira um ID válido.');
+      }
+    }
 
   selecionarFormulario(tipo: string) {
     this.formularioSelecionado = tipo;

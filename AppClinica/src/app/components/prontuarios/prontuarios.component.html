@@ -133,6 +133,41 @@
                     </div>
                 </form>
             </div>
+            <div *ngIf="formularioSelecionado === 'buscar'">
+              <h2>Buscar por ID</h2>
+              <form [formGroup]="formularioBuscar" (ngSubmit)="buscarPorId()">
+                  <div class="form-group">
+                      <label for="idBusca">ID:</label>
+                      <input type="number" id="idBusca" formControlName="id" class="form-control form-control-sm" />
+                  </div>
+                  <button type="submit" class="btn btn-sm btn-outline-secondary">Buscar</button>
+              </form>
+          </div>
+          <div *ngIf=" formularioSelecionado === 'buscar'">
+            <h2>Resultado</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                      <th>ID</th>
+                      <th>PACIENTE ID</th>
+                      <th>DATA CRIAÇÃO</th>
+                      <th>DIAGNOSTICO</th>
+                      <th>TRATAMENTO</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let prontuario of resultBusca | async">
+                      <td>{{ prontuario.id }}</td>
+                      <td>{{ prontuario.pacienteId }}</td>
+                      <td>{{ prontuario.dataCriacao }}</td>
+                      <td>{{ prontuario.diagnostico }}</td>
+                      <td>{{ prontuario.tratamento }}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="button" class="btn btn-sm btn-light"
+                (click)="selecionarFormulario('cadastro')">Voltar</button>
+        </div>
         </div>
     </div>
 </div>

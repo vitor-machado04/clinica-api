@@ -138,3 +138,39 @@
                 </table>
                 <button type="button" class="btn btn-sm btn-light" (click)="selecionarFormulario('cadastro')">Voltar</button>
             </div>
+            <div *ngIf="formularioSelecionado === 'buscar'">
+              <h2>Buscar por ID</h2>
+              <form [formGroup]="formularioBuscar" (ngSubmit)="buscarPorId()">
+                  <div class="form-group">
+                      <label for="idBusca">ID:</label>
+                      <input type="number" id="idBusca" formControlName="id" class="form-control form-control-sm" />
+                  </div>
+                  <button type="submit" class="btn btn-sm btn-outline-secondary">Buscar</button>
+              </form>
+          </div>
+          <div *ngIf=" formularioSelecionado === 'buscar'">
+            <h2>Resultado</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                      <th>ID</th>
+                      <th>PacienteID</th>
+                      <th>MedicoID</th>
+                      <th>Razao</th>
+                      <th>Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let consulta of resultBusca | async">
+                      <td>{{ consulta.id }}</td>
+                      <td>{{ consulta.pacienteId }}</td>
+                      <td>{{ consulta.medicoId }}</td>
+                      <td>{{ consulta.razao }}</td>
+                      <td>{{ consulta.dataHora }}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="button" class="btn btn-sm btn-light"
+                (click)="selecionarFormulario('cadastro')">Voltar</button>
+        </div>
+    </div>

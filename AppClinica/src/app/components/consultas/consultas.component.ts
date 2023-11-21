@@ -18,12 +18,13 @@ export class ConsultasComponent {
   formulario: any;
   formularioExclusao: any;
   formularioAtualizar: any;
+  formularioBuscar: any;
   formularioSelecionado: string = 'cadastro';
 
   //Titulos
   tituloFormulario: string = '';
   tituloFormularioAtualizar: string = '';
-  tituloFormularioBusca: string = '';
+  tituloFormularioBuscar: string = '';
   tituloFormularioExcluir: string = '';
 
   //Listar
@@ -32,6 +33,11 @@ export class ConsultasComponent {
   consultas!: Consulta[];
   consultaSubject = new BehaviorSubject<Consulta[]>([]);
   result = this.consultaSubject.asObservable();
+
+  //Buscar
+  consultaBuscar!: Consulta[];
+  consultaBuscaSubject = new BehaviorSubject<Consulta[]>([]);
+  resultBusca = this.consultaBuscaSubject.asObservable();
 
   constructor(private consultasService: ConsultasService,
     private medicosService: MedicosService,
@@ -80,6 +86,12 @@ export class ConsultasComponent {
       DataHora: new FormControl(null)
     });
 
+    //Formulário de busca
+    this.tituloFormularioBuscar = 'Buscar Consulta por ID:'
+    this.formularioBuscar = new FormGroup({
+      id: new FormControl(null),
+    });
+
   }
 
   enviarFormulario(): void {
@@ -110,11 +122,23 @@ export class ConsultasComponent {
   atualizarConsulta(): void {
       const consulta: Consulta = this.formularioAtualizar.value;
       console.log(consulta);
-  
+
       this.consultasService.atualizar(consulta).subscribe((result) => {
         alert('Atualizado com sucesso!');
         window.location.reload();
       });
+    }
+
+    buscarPorId(): void {
+      const id: number = this.formularioBuscar.get('id')?.value;
+
+      if (id) {
+        this.consultasService.buscar(id).subscribe((result) => {
+          this.consultaBuscaSubject.next([result]);
+        });
+      } else {
+        alert('Insira um ID válido.');
+      }
     }
 
   selecionarFormulario(tipo: string) {

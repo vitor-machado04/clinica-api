@@ -1,11 +1,11 @@
 import { Medico } from "./Medico";
 
 export class Receita {
-    Id: number = 0;
-    Medicamento: string = '';
-    Dosagem: string = '';
-    InstrucoesUso: string = '';
-    DataEmissao: Date | null = null;
-    Medico: Medico | undefined;
-    MedicoId: number = 0;
+    id: number = 0;
+    medicamento: string = '';
+    dosagem: string = '';
+    instrucoesUso: string = '';
+    dataEmissao: Date | null = null;
+    medico: Medico | undefined;
+    idMedico: number = 0;
 }

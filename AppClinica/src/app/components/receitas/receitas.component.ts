@@ -4,6 +4,7 @@ import { ReceitasService } from 'src/app/Services/receitas.service';
 import { Receita } from 'src/app/Classes/Receita';
 import { Medico } from 'src/app/Classes/Medico';
 import { MedicosService } from 'src/app/Services/medicos.service';
+import { BehaviorSubject } from 'rxjs';
 
 @Component({
   selector: 'app-receitas',
@@ -14,16 +15,22 @@ export class ReceitasComponent implements OnInit {
   //Formulário
   formulario: any;
   formularioExclusao: any;
+  formularioBuscar: any;
   formularioSelecionado: string = 'cadastro';
 
   //Titulos
   tituloFormulario: string = '';
   tituloFormularioAtualizar: string = '';
-  tituloFormularioBusca: string = '';
+  tituloFormularioBuscar: string = '';
   tituloFormularioExcluir: string = '';
 
   //Listar
   medicos: Array<Medico> | undefined;
+
+  //Buscar
+  receitaBuscar!: Receita[];
+  receitaBuscaSubject = new BehaviorSubject<Receita[]>([]);
+  resultBusca = this.receitaBuscaSubject.asObservable();
 
   constructor(private receitasService : ReceitasService,
               private medicosService : MedicosService) { }
@@ -43,7 +50,7 @@ export class ReceitasComponent implements OnInit {
       Dosagem: new FormControl(null),
       InstrucoesUso: new FormControl(null),
       DataEmissao: new FormControl(null),
-      MedicoId: new FormControl(null) 
+      MedicoId: new FormControl(null)
     });
 
     // Formulário de exclusão
@@ -51,6 +58,12 @@ export class ReceitasComponent implements OnInit {
     this.formularioExclusao = new FormGroup({
     Id: new FormControl(null),
   });
+
+    //Formulário de busca
+    this.tituloFormularioBuscar = 'Buscar Receita por ID:'
+    this.formularioBuscar = new FormGroup({
+      id: new FormControl(null),
+    });
 }
 
   enviarFormulario(): void {
@@ -69,6 +82,18 @@ export class ReceitasComponent implements OnInit {
       });
     } else {
       alert('Por favor, insira o ID da receita que deseja excluir.');
+    }
+  }
+
+  buscarPorId(): void {
+    const id: number = this.formularioBuscar.get('id')?.value;
+
+    if (id) {
+      this.receitasService.buscar(id).subscribe((result) => {
+        this.receitaBuscaSubject.next([result]);
+      });
+    } else {
+      alert('Insira um ID válido.');
     }
   }
 

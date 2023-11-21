@@ -67,6 +67,40 @@
                     <button (click)="excluirReceita()">Excluir</button>
                 </form>
             </div>
-        
-            
-            
+            <div *ngIf="formularioSelecionado === 'buscar'">
+              <h2>Buscar por ID</h2>
+              <form [formGroup]="formularioBuscar" (ngSubmit)="buscarPorId()">
+                  <div class="form-group">
+                      <label for="idBusca">ID:</label>
+                      <input type="number" id="idBusca" formControlName="id" class="form-control form-control-sm" />
+                  </div>
+                  <button type="submit" class="btn btn-sm btn-outline-secondary">Buscar</button>
+              </form>
+          </div>
+          <div *ngIf=" formularioSelecionado === 'buscar'">
+            <h2>Resultado</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Medicamento</th>
+                        <th>Dosagem</th>
+                        <th>InstrucoesUso</th>
+                        <th>DataEmissao</th>
+                        <th>MedicoID</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let receita of resultBusca | async">
+                        <td>{{ receita.id }}</td>
+                        <td>{{ receita.medicamento }}</td>
+                        <td>{{ receita.dosagem }}</td>
+                        <td>{{ receita.instrucoesUso }}</td>
+                        <td>{{ receita.dataEmissao }}</td>
+                        <td>{{ receita.idMedico}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="button" class="btn btn-sm btn-light"
+                (click)="selecionarFormulario('cadastro')">Voltar</button>
+        </div>
