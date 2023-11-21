@@ -1,18 +1,39 @@
 <style>
-    /* Adicione a fonte Roboto Condensed */
-    @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
-    .custom-font {
-        font-family: 'Roboto Condensed', sans-serif;
-    }
+  /* Adicione a fonte Roboto Condensed */
+  @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+  .custom-font {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  #contrast img {
+    width: 30px; /* Defina a largura desejada para a imagem */
+    height: 30px; /* Defina a altura desejada para a imagem */
+    margin-right: 5px; /* Adicione margem à direita para separar a imagem do texto */
+  }
 </style>
-<div class="text-left mt-4 ml-4 pl-5">
-    <p class="text-white display-3 custom-font" style="margin-top: 150px;">
+
+<div class="container text-left mt-4 ml-4 pl-5">
+  <p class="text-white display-3 custom-font" style="margin-top: 150px;">
     API voltada para <br> gestão de<br> clínicas médicas.
   </p>
   <h4 class="text-white">
     CONFIRA COMO FOI DESENVOLVIDO.
     <a href="https://github.com/vitor-machado04/clinica-api" target="_blank">
-    <button id="contrast">Clique aqui</button>
+      <button id="contrast">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Icon">
+        GitHub
+      </button>
+    </a>
+    <a href="http://localhost:5000/swagger/index.html" target="_blank">
+      <button id="contrast">
+        <img src="https://static-00.iconduck.com/assets.00/swagger-icon-512x512-halz44im.png" alt="Swagger Icon">
+        Swagger
+      </button>
     </a>
   </h4>
 </div>
+<div class="container text-right mt-4 mr-4 pr-5">
+  <img src="https://i.giphy.com/media/8PvsuCCnHBJ4LRrX7E/giphy.webp" class="img-fluid mt-n4" alt="GIF">
+</div>
+
