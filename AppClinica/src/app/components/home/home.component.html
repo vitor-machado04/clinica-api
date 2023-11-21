@@ -5,11 +5,17 @@
   .custom-font {
     font-family: 'Roboto Condensed', sans-serif;
   }
-  
+
   #contrast img {
-    width: 30px; /* Defina a largura desejada para a imagem */
-    height: 30px; /* Defina a altura desejada para a imagem */
-    margin-right: 5px; /* Adicione margem à direita para separar a imagem do texto */
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+
+  #fixed-gif {
+    position: fixed;
+    bottom: 0px; /* Ajuste conforme necessário para a posição vertical no final da página */
+    right: 40px; /* Ajuste conforme necessário para a posição horizontal */
   }
 </style>
 
@@ -33,7 +39,6 @@
     </a>
   </h4>
 </div>
-<div class="container text-right mt-4 mr-4 pr-5">
-  <img src="https://i.giphy.com/media/8PvsuCCnHBJ4LRrX7E/giphy.webp" class="img-fluid mt-n4" alt="GIF">
+<div id="fixed-gif">
+  <img src="https://i.giphy.com/media/8PvsuCCnHBJ4LRrX7E/giphy.webp" class="img-fluid" alt="GIF">
 </div>
-
