@@ -70,6 +70,7 @@ export class MedicosComponent implements OnInit {
     const medico: Medico = this.formulario.value;
     this.medicosService.cadastrar(medico).subscribe(result => {
       alert('Medico inserido com sucesso.');
+      window.location.reload();
     });
   }
 
@@ -79,6 +80,7 @@ export class MedicosComponent implements OnInit {
     if (idExclusao) {
       this.medicosService.excluir(idExclusao).subscribe(result => {
         alert('Médico excluído com sucesso.');
+        window.location.reload();
       });
     } else {
       alert('Por favor, insira o ID do médico que deseja excluir.');
@@ -95,6 +97,7 @@ export class MedicosComponent implements OnInit {
     const medico: Medico = this.formularioAtualizar.value;
     this.medicosService.atualizar(medico).subscribe(result => {
       alert("Medico atualizado com sucesso!");
+      window.location.reload();
     });
   }
 

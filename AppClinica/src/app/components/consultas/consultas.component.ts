@@ -98,6 +98,7 @@ export class ConsultasComponent {
     const consulta: Consulta = this.formulario.value;
     this.consultasService.cadastrar(consulta).subscribe(result => {
       alert('Consulta inserida com sucesso.');
+      window.location.reload();
     })
   }
 
@@ -107,6 +108,7 @@ export class ConsultasComponent {
     if (idExclusao) {
       this.consultasService.excluir(idExclusao).subscribe(result => {
         alert('Consulta excluída com sucesso.');
+        window.location.reload();
       });
     } else {
       alert('Por favor, insira o ID da consulta que deseja excluir.');

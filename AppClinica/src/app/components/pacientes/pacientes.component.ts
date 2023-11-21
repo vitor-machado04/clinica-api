@@ -71,6 +71,7 @@ export class PacientesComponent implements OnInit {
     const paciente: Paciente = this.formulario.value;
     this.pacientesService.cadastrar(paciente).subscribe(result => {
       alert('Paciente inserido com sucesso.');
+      window.location.reload();
     })
   }
 
@@ -80,6 +81,7 @@ export class PacientesComponent implements OnInit {
     if (idExclusao) {
       this.pacientesService.excluir(idExclusao).subscribe(result => {
         alert('Paciente excluído com sucesso.')
+        window.location.reload();
       });
     } else {
       alert('Por favor, insira o ID do paciente que deseja excluir.');
@@ -96,6 +98,7 @@ export class PacientesComponent implements OnInit {
     const paciente: Paciente = this.formularioAlterar.value;
     this.pacientesService.atualizar(paciente).subscribe(result => {
       alert("Paciente atualizado com sucesso!");
+      window.location.reload();
     });
   }
 

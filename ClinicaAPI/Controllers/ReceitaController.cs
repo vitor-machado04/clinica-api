@@ -61,8 +61,8 @@ namespace ClinicaAPI.Controllers
 
         // Alterando receita
         [HttpPut()]
-        [Route("alterar")]
-        public async Task<IActionResult> Alterar(Receita receita)
+        [Route("atualizar")]
+        public async Task<IActionResult> Atualizar(Receita receita)
         {
             if (_context is null) return NotFound();
             var tempMedico = await _context.Medico.FindAsync(receita.IdMedico);

@@ -7,4 +7,5 @@ export class Exame {
     resultado: string = '';
     paciente: Paciente | undefined;
     pacienteId: number = 0;
+
   }

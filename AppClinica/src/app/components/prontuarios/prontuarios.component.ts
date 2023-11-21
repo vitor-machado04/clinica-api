@@ -86,6 +86,7 @@ export class ProntuariosComponent {
     const prontuario: Prontuario = this.formulario.value;
     this.prontuariosService.cadastrar(prontuario).subscribe(result => {
       alert('Prontuario inserida com sucesso.');
+      window.location.reload();
     });
   }
 
@@ -95,6 +96,7 @@ export class ProntuariosComponent {
     if (idExclusao) {
       this.prontuariosService.excluir(idExclusao).subscribe(result => {
         alert('Prontuario excluída com sucesso.');
+        window.location.reload();
       });
     } else {
       alert('Por favor, insira o ID da prontuario que deseja excluir.');
@@ -112,7 +114,7 @@ export class ProntuariosComponent {
 
     this.prontuariosService.atualizar(prontuario).subscribe((result) => {
       alert('Atualizado com sucesso!');
-      window.location.reload();
+      window.location.reload(); 
     });
   }
 

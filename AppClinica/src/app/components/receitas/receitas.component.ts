@@ -16,6 +16,7 @@ export class ReceitasComponent implements OnInit {
   formulario: any;
   formularioExclusao: any;
   formularioBuscar: any;
+  formularioAtualizar: any;
   formularioSelecionado: string = 'cadastro';
 
   //Titulos
@@ -26,6 +27,9 @@ export class ReceitasComponent implements OnInit {
 
   //Listar
   medicos: Array<Medico> | undefined;
+  receitas!: Receita[] ;
+  receitaSubject = new BehaviorSubject<Receita[]>([]);
+  result = this.receitaSubject.asObservable();
 
   //Buscar
   receitaBuscar!: Receita[];
@@ -40,7 +44,7 @@ export class ReceitasComponent implements OnInit {
     this.medicosService.listar().subscribe(medicos => {
       this.medicos = medicos;
       if (this.medicos && this.medicos.length > 0) {
-        this.formulario.get('MedicoId')?.setValue(this.medicos[0].id);
+        this.formulario.get('IdMedico')?.setValue(this.medicos[0].id);
       }
     });
 
@@ -50,7 +54,7 @@ export class ReceitasComponent implements OnInit {
       Dosagem: new FormControl(null),
       InstrucoesUso: new FormControl(null),
       DataEmissao: new FormControl(null),
-      MedicoId: new FormControl(null)
+      IdMedico: new FormControl(null)
     });
 
     // Formulário de exclusão
@@ -64,13 +68,28 @@ export class ReceitasComponent implements OnInit {
     this.formularioBuscar = new FormGroup({
       id: new FormControl(null),
     });
+
+    // Formulário de Listar
+    this.exibirReceita();
+
+    // Formulário de atualizar
+    this.tituloFormularioAtualizar = 'Atualizando Receita'
+    this.formularioAtualizar = new FormGroup ({
+      Id: new FormControl(null),
+      Medicamento: new FormControl(null),
+      Dosagem: new FormControl(null),
+      InstrucoesUso: new FormControl(null),
+      DataEmissao: new FormControl(null),
+      IdMedico: new FormControl(null)
+    })
 }
 
   enviarFormulario(): void {
     const receita : Receita = this.formulario.value;
     this.receitasService.cadastrar(receita).subscribe(result => {
       alert('Receita inserida com sucesso.');
-    })
+      window.location.reload();
+    });
   }
 
   excluirReceita(): void {
@@ -78,6 +97,7 @@ export class ReceitasComponent implements OnInit {
 
     if (idExclusao) {
       this.receitasService.excluir(idExclusao).subscribe(result => {
+        window.location.reload();
         alert('Receita excluída com sucesso.');
       });
     } else {
@@ -95,6 +115,21 @@ export class ReceitasComponent implements OnInit {
     } else {
       alert('Insira um ID válido.');
     }
+  }
+
+  exibirReceita(): void {
+    this.receitasService.listar().subscribe(_receitas => {
+      this.receitaSubject.next(_receitas)
+    });
+  }
+
+  atualizarReceita(): void {
+    const receita: Receita = this.formularioAtualizar.value;
+
+    this.receitasService.atualizar(receita).subscribe((result) => {
+      alert('Atualizado com sucesso!');
+      window.location.reload();
+    });
   }
 
   selecionarFormulario(tipo: string) {

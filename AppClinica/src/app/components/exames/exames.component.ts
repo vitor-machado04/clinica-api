@@ -87,6 +87,7 @@ export class ExamesComponent implements OnInit {
     const exame : Exame = this.formulario.value;
     this.examesService.cadastrar(exame).subscribe(result => {
       alert('Exame inserido com sucesso.');
+      window.location.reload();
     })
   }
 
@@ -96,6 +97,7 @@ export class ExamesComponent implements OnInit {
     if (idExclusao) {
       this.examesService.excluir(idExclusao).subscribe(result => {
         alert('Exame excluído com sucesso.');
+        window.location.reload();
       });
     } else {
       alert('Por favor, insira o ID do exame que deseja excluir.');
@@ -110,7 +112,6 @@ export class ExamesComponent implements OnInit {
 
   atualizarExame(): void {
       const exame: Exame = this.formularioAtualizar.value;
-      console.log(exame);
 
       this.examesService.atualizar(exame).subscribe((result) => {
         alert('Atualizado com sucesso!');
